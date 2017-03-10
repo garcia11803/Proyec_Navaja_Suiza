@@ -1,0 +1,11 @@
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe.config
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.pdb
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.csprojResolveAssemblyReference.cache
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Navaja_Suiza.resources
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.resources
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Properties.Resources.resources
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.csproj.GenerateResource.Cache
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.exe
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.pdb
+H:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Temp.Temp.resources

@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Proyec_Navaja_Suiza.Temp
+{
+    public partial class Temp : Form
+    {
+
+        private static string InputBox(string texto)
+        {
+            InputBoxDialog ib = new InputBoxDialog();
+            ib.FormPrompt = texto;
+            ib.DefaultValue = "";
+            ib.ShowDialog();
+            string s = ib.InputResponse;
+            ib.Close();
+            return s;
+        }
+
+        const int Khoras = 24;
+
+        int[] vector = new int[Khoras];
+
+        void leervector(int[] vector)
+        {
+            for (int i = 0; i < vector.Length; i++)
+            {
+                vector[i] = int.Parse(InputBox("Introduzca el elemento " + i));
+            }
+        }
+
+
+        void temperatura(int []vector, out int maxi, out int mini, out int media)
+        {
+            maxi = vector[0];
+            mini = vector[0];
+            media = 0;
+
+            for(int i = 0; i < vector.Length; i++)
+            {
+                    if(vector[i]> maxi)
+                    {
+                    maxi = vector[i];
+                     }
+                      if(vector[i]<mini)
+                        {
+                        mini = vector[i];
+
+                        }
+                media = media + vector[i];
+            }
+            media = media / Khoras;
+
+        }
+
+
+        public Temp()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            int tempmedia, maxima, minima;
+
+            leervector(vector);
+            temperatura(vector, out maxima, out minima, out tempmedia);
+
+            MessageBox.Show("La temperatura maxima es  " + maxima + ", la temperatura minima es " +
+                minima +", la temperatura media es " + tempmedia);
+
+
+
+
+        }
+    }
+}
