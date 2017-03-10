@@ -11,7 +11,12 @@ using System.Windows.Forms;
 namespace Proyec_Navaja_Suiza.Sumanumeros
 {
     public partial class Sumanumeros : Form
-    {
+    {/// <summary>
+    /// Realizamos la sum de los dos numeros introducidos
+    /// </summary>
+    /// <param name="num1"></param>
+    /// <param name="num2"></param>
+    /// <returns>En este metodo nos da el resultado de la suma</returns>
 
         int suma(int num1, int num2)
         {
@@ -19,7 +24,9 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
             resul = num1 + num2;
             return resul;
         }
-
+        /// <summary>
+        ///   Aqui se instacia la apli
+        /// </summary>
         public Sumanumeros()
         {
             InitializeComponent();

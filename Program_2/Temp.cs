@@ -23,7 +23,9 @@ namespace Proyec_Navaja_Suiza.Temp
             ib.Close();
             return s;
         }
-
+        /// <summary>
+        /// Aqui creamos vector para la recogida de datos y posterior utilizacion
+        /// </summary>
         const int Khoras = 24;
 
         int[] vector = new int[Khoras];
@@ -36,7 +38,14 @@ namespace Proyec_Navaja_Suiza.Temp
             }
         }
 
-
+        /// <summary>
+        /// Vamos a saber la temperatura media de los introducidos
+        /// maxima y minima
+        /// </summary>
+        /// <param name="vector"></param>
+        /// <param name="maxi"></param>
+        /// <param name="mini"></param>
+        /// <param name="media"></param>
         void temperatura(int []vector, out int maxi, out int mini, out int media)
         {
             maxi = vector[0];
@@ -60,7 +69,9 @@ namespace Proyec_Navaja_Suiza.Temp
 
         }
 
-
+        /// <summary>
+        /// Instacionamos la apli
+        /// </summary>
         public Temp()
         {
             InitializeComponent();
@@ -68,9 +79,9 @@ namespace Proyec_Navaja_Suiza.Temp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
             int tempmedia, maxima, minima;
-
+            
             leervector(vector);
             temperatura(vector, out maxima, out minima, out tempmedia);
 

@@ -1,5 +1,7 @@
 ﻿namespace Proyec_Navaja_Suiza.Sumanumeros
-{
+{/// <summary>
+///     Aplicacion para sumar dos numeros
+/// </summary>
     partial class Sumanumeros
     {
         /// <summary>
@@ -77,7 +79,7 @@
             this.lNumero2.TabIndex = 4;
             this.lNumero2.Text = "Numero 2";
             // 
-            // Form1
+            // Sumanumeros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -87,8 +89,8 @@
             this.Controls.Add(this.tNumero2);
             this.Controls.Add(this.tNumero1);
             this.Controls.Add(this.bCalcula);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Sumanumeros";
+            this.Text = "Suma dos numeros";
             this.ResumeLayout(false);
             this.PerformLayout();
 
