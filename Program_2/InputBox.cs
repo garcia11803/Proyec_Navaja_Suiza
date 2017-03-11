@@ -10,7 +10,7 @@ namespace System
 {
     /// <summary>
     /// Summary description for InputBox.
-    ///
+    ///</summary>
     public class InputBoxDialog : System.Windows.Forms.Form
     {
 
@@ -21,7 +21,7 @@ namespace System
         private System.Windows.Forms.TextBox txtInput;
         /// <summary>
         /// Required designer variable.
-        ///
+        ///</summary>
         private System.ComponentModel.Container components = null;
 
         public InputBoxDialog()
@@ -42,7 +42,7 @@ namespace System
 
         /// <summary>
         /// Clean up any resources being used.
-        ///
+        ///</summary>
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -61,7 +61,7 @@ namespace System
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
-        ///
+        ///</summary>
         private void InitializeComponent()
         {
             this.lblPrompt = new System.Windows.Forms.Label();

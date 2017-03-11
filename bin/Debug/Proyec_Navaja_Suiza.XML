@@ -189,9 +189,26 @@
               búsquedas de recursos usando esta clase de recursos fuertemente tipados.
             </summary>
         </member>
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "T:System.InputBoxDialog" -->
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "F:System.InputBoxDialog.components" -->
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:System.InputBoxDialog.Dispose(System.Boolean)" -->
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:System.InputBoxDialog.InitializeComponent" -->
+        <member name="T:System.InputBoxDialog">
+             <summary>
+             Summary description for InputBox.
+            </summary>
+        </member>
+        <member name="F:System.InputBoxDialog.components">
+             <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:System.InputBoxDialog.Dispose(System.Boolean)">
+             <summary>
+             Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:System.InputBoxDialog.InitializeComponent">
+             <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
     </members>
 </doc>

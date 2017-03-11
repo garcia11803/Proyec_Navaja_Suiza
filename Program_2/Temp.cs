@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Proyec_Navaja_Suiza.Temp
-{
+{/// <summary>
+/// Clas e creada para la realizacion del programa de temeratura
+/// </summary>
     public partial class Temp : Form
     {
 
@@ -51,7 +53,7 @@ namespace Proyec_Navaja_Suiza.Temp
             maxi = vector[0];
             mini = vector[0];
             media = 0;
-
+            
             for(int i = 0; i < vector.Length; i++)
             {
                     if(vector[i]> maxi)

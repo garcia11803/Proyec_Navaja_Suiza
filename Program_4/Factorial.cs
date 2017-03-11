@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Para saber el  factorial de un numero utilizaremos este programa
+/// </summary>
 namespace Proyec_Navaja_Suiza.Factorial
 {
     public partial class Factorial : Form
@@ -21,13 +23,14 @@ namespace Proyec_Navaja_Suiza.Factorial
 
         private void bCalcula_Click(object sender, EventArgs e)
         {
-
+            
             int i, num,fact;
             String texto1,texto2;
             fact = 1;
             texto1 = "El numero factorial de ";
             texto2 = " es: ";
-            num = int.Parse(tNumero.Text);
+            num = int.Parse(tNumero.Text); 
+
             for (i=num ;i > 0 ; i--)
             {
                 fact = fact * i;

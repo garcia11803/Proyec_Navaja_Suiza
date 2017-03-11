@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Programa para saber si una palabra es palindromica
+/// </summary>
 namespace Proyec_Navaja_Suiza.Palindromica
 {/// <summary>
 /// Realizamos la comparacion del string introducido y su posterior analisis
