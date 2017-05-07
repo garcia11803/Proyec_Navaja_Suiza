@@ -14,6 +14,7 @@ namespace Proyec_Navaja_Suiza.Temp
 /// </summary>
     public partial class Temp : Form
     {
+        int posicion = 0;
 
         private static string InputBox(string texto)
         {
@@ -31,12 +32,40 @@ namespace Proyec_Navaja_Suiza.Temp
         const int Khoras = 24;
 
         int[] vector = new int[Khoras];
-
+        /*
         void leervector(int[] vector)
         {
             for (int i = 0; i < vector.Length; i++)
             {
-                vector[i] = int.Parse(InputBox("Introduzca el elemento " + i));
+              vector[i] = int.Parse(InputBox("Introduzca el elemento " + i));
+            }
+            
+
+        }*/
+
+        void FLeoVector(int[] vector)
+        {
+            bool bNumeroCorrecto;
+            int numero;
+
+            bNumeroCorrecto = int.TryParse(tTemperatura.Text, out numero);
+
+            if (bNumeroCorrecto)
+            {
+                if (posicion < vector.Length)
+                {
+                    vector[posicion] = numero;
+                    tTemperatura.Text = "";
+                    posicion++;
+                }
+                else
+                {
+                    MessageBox.Show("Vector lleno");
+                }
+            }
+            else
+            {
+                MessageBox.Show("¡Error! El valor introducido por el usuario no es un número entero");
             }
         }
 
@@ -84,7 +113,7 @@ namespace Proyec_Navaja_Suiza.Temp
             
             int tempmedia, maxima, minima;
             
-            leervector(vector);
+            //leervector(vector);
             temperatura(vector, out maxima, out minima, out tempmedia);
 
             MessageBox.Show("La temperatura maxima es  " + maxima + ", la temperatura minima es " +
@@ -92,6 +121,13 @@ namespace Proyec_Navaja_Suiza.Temp
 
 
 
+
+        }
+
+        private void bleeTemp_Click(object sender, EventArgs e)
+        {
+
+            FLeoVector(vector);
 
         }
     }

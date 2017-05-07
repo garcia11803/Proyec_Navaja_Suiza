@@ -14,6 +14,28 @@
                 Instanciador de la clase principal, parte fundamental del programa
             </summary>
         </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bSumanumeros_Click(System.Object,System.EventArgs)">
+            <summary>
+            En este boton realizamos la llamada al programa sumanumeros
+            </summary>
+            <param name="sender">Lanza el evento de sumanumeros</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Proyec_Navaja_Suiza.Navaja_Suiza.bTemperatura_Click(System.Object,System.EventArgs)" -->
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bPalindromo_Click(System.Object,System.EventArgs)">
+            <summary>
+            Ahora vamos a iniciar el programa poara saber si una palabra intooducida es palindromica
+            </summary>
+            <param name="sender">Lanza el evento de boton Palindrmo</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bFactorial_Click(System.Object,System.EventArgs)">
+            <summary>
+            Aqui iniciamos el programa para saber el factorial de un numero introducido
+            </summary>
+            <param name="sender">Lanza el evento de boton factorial</param>
+            <param name="e">Sin uso</param>
+        </member>
         <member name="F:Proyec_Navaja_Suiza.Navaja_Suiza.components">
             <summary>
             Variable del diseñador necesaria.
@@ -54,6 +76,13 @@
               Aqui se instacia la apli
             </summary>
         </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.bCalcula_Click(System.Object,System.EventArgs)">
+            <summary>
+            En este boton declaramos una serie de variables y llamamos al metodo suma
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
         <member name="F:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.components">
             <summary>
             Variable del diseñador necesaria.
@@ -73,6 +102,9 @@
         </member>
         <member name="T:Proyec_Navaja_Suiza.Temp.Temp">
             <summary>
+            Clas e creada para la realizacion del programa de temeratura
+            </summary>
+            <summary>
             Creamos otra clase para la utilizacion de la creacion de temperatura
             media, maxima y minima
             </summary>
@@ -87,10 +119,10 @@
             Vamos a saber la temperatura media de los introducidos
             maxima y minima
             </summary>
-            <param name="vector"></param>
-            <param name="maxi"></param>
-            <param name="mini"></param>
-            <param name="media"></param>
+            <param name="vector">Aqui recogemos la temperratura de cada hora del dia</param>
+            <param name="maxi">Aqui introducimos la temperatura maxima</param>
+            <param name="mini">Aqui recogemos la temperatura minima</param>
+            <param name="media">Aqui recogemos la temperatura media </param>
         </member>
         <member name="M:Proyec_Navaja_Suiza.Temp.Temp.#ctor">
             <summary>

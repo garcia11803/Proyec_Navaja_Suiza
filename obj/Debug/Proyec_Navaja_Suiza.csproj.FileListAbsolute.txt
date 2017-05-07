@@ -29,3 +29,13 @@ C:\Temp\bin\Debug\Proyec_Navaja_Suiza.exe.config
 C:\Temp\bin\Debug\Proyec_Navaja_Suiza.XML
 C:\Temp\obj\Debug\Proyec_Navaja_Suiza.exe
 C:\Temp\obj\Debug\Proyec_Navaja_Suiza.pdb
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.csprojResolveAssemblyReference.cache
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Navaja_Suiza.resources
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.resources
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Temp.Temp.resources
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Palindromica.Palindromica.resources
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Factorial.Factorial.resources
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Properties.Resources.resources
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.csproj.GenerateResource.Cache
+C:\Temp\bin\Debug\Proyec_Navaja_Suiza.exe
+C:\Temp\bin\Debug\Proyec_Navaja_Suiza.pdb

@@ -31,34 +31,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.bTemp = new System.Windows.Forms.Button();
+            this.tTemperatura = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bleeTemp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // bTemp
             // 
-            this.button1.Location = new System.Drawing.Point(109, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Introduce la temperatura";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bTemp.Location = new System.Drawing.Point(89, 226);
+            this.bTemp.Name = "bTemp";
+            this.bTemp.Size = new System.Drawing.Size(205, 23);
+            this.bTemp.TabIndex = 0;
+            this.bTemp.Text = "Saca la temperatura media,max y min";
+            this.bTemp.UseVisualStyleBackColor = true;
+            this.bTemp.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tTemperatura
+            // 
+            this.tTemperatura.Location = new System.Drawing.Point(181, 65);
+            this.tTemperatura.Name = "tTemperatura";
+            this.tTemperatura.Size = new System.Drawing.Size(73, 20);
+            this.tTemperatura.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(43, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Introduce la temperatura";
+            // 
+            // bleeTemp
+            // 
+            this.bleeTemp.Location = new System.Drawing.Point(129, 137);
+            this.bleeTemp.Name = "bleeTemp";
+            this.bleeTemp.Size = new System.Drawing.Size(138, 23);
+            this.bleeTemp.TabIndex = 3;
+            this.bleeTemp.Text = "Introducir temperaturas";
+            this.bleeTemp.UseVisualStyleBackColor = true;
+            this.bleeTemp.Click += new System.EventHandler(this.bleeTemp_Click);
             // 
             // Temp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(388, 324);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bleeTemp);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tTemperatura);
+            this.Controls.Add(this.bTemp);
             this.Name = "Temp";
             this.Text = "Temperatura";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bTemp;
+        private System.Windows.Forms.TextBox tTemperatura;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button bleeTemp;
     }
 }
 
