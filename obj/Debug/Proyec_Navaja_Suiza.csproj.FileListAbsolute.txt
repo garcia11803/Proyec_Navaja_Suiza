@@ -25,3 +25,7 @@ G:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_S
 G:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Factorial.Factorial.resources
 G:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Properties.Resources.resources
 G:\DAW\Entorno\Proyec_Navaja_Suiza\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.csproj.GenerateResource.Cache
+C:\Temp\bin\Debug\Proyec_Navaja_Suiza.exe.config
+C:\Temp\bin\Debug\Proyec_Navaja_Suiza.XML
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.exe
+C:\Temp\obj\Debug\Proyec_Navaja_Suiza.pdb
