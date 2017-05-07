@@ -44,10 +44,10 @@ namespace Proyec_Navaja_Suiza.Temp
         /// Vamos a saber la temperatura media de los introducidos
         /// maxima y minima
         /// </summary>
-        /// <param name="vector"></param>
-        /// <param name="maxi"></param>
-        /// <param name="mini"></param>
-        /// <param name="media"></param>
+        /// <param name="vector">Aqui recogemos la temperratura de cada hora del dia</param>
+        /// <param name="maxi">Aqui introducimos la temperatura maxima</param>
+        /// <param name="mini">Aqui recogemos la temperatura minima</param>
+        /// <param name="media">Aqui recogemos la temperatura media </param>
         void temperatura(int []vector, out int maxi, out int mini, out int media)
         {
             maxi = vector[0];
