@@ -16,8 +16,8 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
     {/// <summary>
     /// Realizamos la sum de los dos numeros introducidos
     /// </summary>
-    /// <param name="num1"></param>
-    /// <param name="num2"></param>
+    /// <param name="num1">Primer numero introducido</param>
+    /// <param name="num2">Segundo numero introducido</param>
     /// <returns>En este metodo nos da el resultado de la suma</returns>
 
         int suma(int num1, int num2)
@@ -36,8 +36,8 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
         /// <summary>
         /// En este boton declaramos una serie de variables y llamamos al metodo suma
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">Lanza el evento de sumanmeros</param>
+        /// <param name="e">Sin uso</param>
         private void bCalcula_Click(object sender, EventArgs e)
         {
             

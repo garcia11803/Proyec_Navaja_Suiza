@@ -20,7 +20,11 @@ namespace Proyec_Navaja_Suiza.Factorial
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// VAmos a realizar el calculo del factotial de un numero introducido
+        /// </summary>
+        /// <param name="sender">Lanza el evento bCalcular</param>
+        /// <param name="e"></param>
         private void bCalcula_Click(object sender, EventArgs e)
         {
             

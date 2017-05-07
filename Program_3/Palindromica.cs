@@ -42,8 +42,13 @@ namespace Proyec_Navaja_Suiza.Palindromica
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Aqui vamos a realizar la comprovacion de  la palabra introducida es palindromica
+        /// </summary>
+        /// <param name="sender">Lanza el evento bPalindro</param>
+        /// <param name="e">Sin uso</param>
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bPalindro_Click(object sender, EventArgs e)
         {
             string frase = textBox1.Text;
             bool capicua = palindromo(frase);

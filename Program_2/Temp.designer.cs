@@ -45,7 +45,7 @@
             this.bTemp.TabIndex = 0;
             this.bTemp.Text = "Saca la temperatura media,max y min";
             this.bTemp.UseVisualStyleBackColor = true;
-            this.bTemp.Click += new System.EventHandler(this.button1_Click);
+            this.bTemp.Click += new System.EventHandler(this.bCalcula_Click);
             // 
             // tTemperatura
             // 

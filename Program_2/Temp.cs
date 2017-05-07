@@ -108,7 +108,12 @@ namespace Proyec_Navaja_Suiza.Temp
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Con este boton relalizaremos la obtencion de temp max, temp media y temp mini
+        /// </summary>
+        /// <param name="sender">Lanza evento boton de calcular MED, MIN y MAX</param>
+        /// <param name="e">Sin uso</param>
+        private void bCalcula_Click(object sender, EventArgs e)
         {
             
             int tempmedia, maxima, minima;
@@ -123,7 +128,11 @@ namespace Proyec_Navaja_Suiza.Temp
 
 
         }
-
+        /// <summary>
+        /// Vamos a guardar la temperatura de cada hora del dia, para despues realizar una serie de calculos del ortro boton
+        /// </summary>
+        /// <param name="sender">Lanza el evento de leer el vector de temperatura</param>
+        /// <param name="e">Sin uso</param>
         private void bleeTemp_Click(object sender, EventArgs e)
         {
 
