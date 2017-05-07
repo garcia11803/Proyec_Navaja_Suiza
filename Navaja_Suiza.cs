@@ -20,10 +20,14 @@ namespace Proyec_Navaja_Suiza
         {
             InitializeComponent();
         }
-        
-        private void button1_Click(object sender, EventArgs e)
+        /// <summary>
+        /// En este boton realizamos la llamada al programa sumanumeros
+        /// </summary>
+        /// <param name="sender">Lanza el evento de sumanumeros</param>
+        /// <param name="e">Sin uso</param>
+        private void bSumanumeros_Click(object sender, EventArgs e)
         {
-            ////En este boton realizamos la llamada al programa sumanumeros
+            
           
             Sumanumeros.Sumanumeros osuma = new Sumanumeros.Sumanumeros();
             osuma.ShowDialog();
@@ -31,28 +35,50 @@ namespace Proyec_Navaja_Suiza
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Aqui realizamos la activacion del prorama para calcular la tem, 
+            //max min y media in introducido
+        /// </summary>
+        /// <param name="sender">Lanza el evento de temperatura</param>
+        /// <param name="e">Sin uso</param>
+
+        private void bTemperatura_Click(object sender, EventArgs e)
         {
-            ////Aqui realizamos la activacion del prorama para calcular la tem, 
-            ////max min y media in introducido
+          
             Temp.Temp otemperatura = new Temp.Temp();
             otemperatura.ShowDialog();
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Ahora vamos a iniciar el programa poara saber si una palabra intooducida es palindromica
+        /// </summary>
+        /// <param name="sender">Lanza el evento de boton Palindrmo</param>
+        /// <param name="e"></param>
+
+        private void bPalindromo_Click(object sender, EventArgs e)
         {
-            //// Ahora vamos a iniciar el programa poara saber si una palabra intooducida es palindromica
+           
             Palindromica.Palindromica opalin = new Palindromica.Palindromica();
             opalin.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Aqui iniciamos el programa para saber el factorial de un numero introducido
+        /// </summary>
+        /// <param name="sender">Lanza el evento de boton factorial</param>
+        /// <param name="e">Sin uso</param>
+        private void bFactorial_Click(object sender, EventArgs e)
         {
 
-            ////Aqui iniciamos el programa para saber el factorial de un numero introducido
+            
             Factorial.Factorial ofacto = new Factorial.Factorial();
             ofacto.ShowDialog();
+        }
+
+        private void Navaja_Suiza_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
