@@ -76,6 +76,7 @@
     <Compile Include="Program_1\Sumanumeros.designer.cs">
       <DependentUpon>Sumanumeros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program_1\SumanumerosLogica.cs" />
     <Compile Include="Program_2\Temp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +86,8 @@
     <Compile Include="Program_2\InputBox.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Program_2\TempLogica.cs" />
+    <Compile Include="Program_3\PalidromicaLogica.cs" />
     <Compile Include="Program_3\Palindromica.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +100,7 @@
     <Compile Include="Program_4\Factorial.designer.cs">
       <DependentUpon>Factorial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program_4\FactorialLogica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Navaja_Suiza.resx">
       <DependentUpon>Navaja_Suiza.cs</DependentUpon>

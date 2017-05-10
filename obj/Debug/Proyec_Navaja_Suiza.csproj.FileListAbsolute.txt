@@ -39,3 +39,7 @@ C:\Temp\obj\Debug\Proyec_Navaja_Suiza.Properties.Resources.resources
 C:\Temp\obj\Debug\Proyec_Navaja_Suiza.csproj.GenerateResource.Cache
 C:\Temp\bin\Debug\Proyec_Navaja_Suiza.exe
 C:\Temp\bin\Debug\Proyec_Navaja_Suiza.pdb
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe.config
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.XML
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.exe
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.pdb
