@@ -14,36 +14,20 @@ namespace Proyec_Navaja_Suiza.Temp
 /// </summary>
     public partial class Temp : Form
     {
+        TempLogica otemperatura = new TempLogica();
+
         int posicion = 0;
 
-        private static string InputBox(string texto)
-        {
-            InputBoxDialog ib = new InputBoxDialog();
-            ib.FormPrompt = texto;
-            ib.DefaultValue = "";
-            ib.ShowDialog();
-            string s = ib.InputResponse;
-            ib.Close();
-            return s;
-        }
+        
+
         /// <summary>
         /// Aqui creamos vector para la recogida de datos y posterior utilizacion
         /// </summary>
         const int Khoras = 24;
 
         int[] vector = new int[Khoras];
-        /*
-        void leervector(int[] vector)
-        {
-            for (int i = 0; i < vector.Length; i++)
-            {
-              vector[i] = int.Parse(InputBox("Introduzca el elemento " + i));
-            }
-            
 
-        }*/
-
-        void FLeoVector(int[] vector)
+        public void FLeoVector(int[] vector)
         {
             bool bNumeroCorrecto;
             int numero;
@@ -69,36 +53,7 @@ namespace Proyec_Navaja_Suiza.Temp
             }
         }
 
-        /// <summary>
-        /// Vamos a saber la temperatura media de los introducidos
-        /// maxima y minima
-        /// </summary>
-        /// <param name="vector">Aqui recogemos la temperratura de cada hora del dia</param>
-        /// <param name="maxi">Aqui introducimos la temperatura maxima</param>
-        /// <param name="mini">Aqui recogemos la temperatura minima</param>
-        /// <param name="media">Aqui recogemos la temperatura media </param>
-        void temperatura(int []vector, out int maxi, out int mini, out int media)
-        {
-            maxi = vector[0];
-            mini = vector[0];
-            media = 0;
-            
-            for(int i = 0; i < vector.Length; i++)
-            {
-                    if(vector[i]> maxi)
-                    {
-                    maxi = vector[i];
-                     }
-                      if(vector[i]<mini)
-                        {
-                        mini = vector[i];
 
-                        }
-                media = media + vector[i];
-            }
-            media = media / Khoras;
-
-        }
 
         /// <summary>
         /// Instacionamos la apli
@@ -119,7 +74,7 @@ namespace Proyec_Navaja_Suiza.Temp
             int tempmedia, maxima, minima;
             
             //leervector(vector);
-            temperatura(vector, out maxima, out minima, out tempmedia);
+            otemperatura.temperatura(vector, out maxima, out minima, out tempmedia);
 
             MessageBox.Show("La temperatura maxima es  " + maxima + ", la temperatura minima es " +
                 minima +", la temperatura media es " + tempmedia);
@@ -136,7 +91,7 @@ namespace Proyec_Navaja_Suiza.Temp
         private void bleeTemp_Click(object sender, EventArgs e)
         {
 
-            FLeoVector(vector);
+          FLeoVector(vector);
 
         }
     }

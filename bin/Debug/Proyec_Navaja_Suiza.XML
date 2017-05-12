@@ -21,7 +21,14 @@
             <param name="sender">Lanza el evento de sumanumeros</param>
             <param name="e">Sin uso</param>
         </member>
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Proyec_Navaja_Suiza.Navaja_Suiza.bTemperatura_Click(System.Object,System.EventArgs)" -->
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bTemperatura_Click(System.Object,System.EventArgs)">
+             <summary>
+             Aqui realizamos la activacion del prorama para calcular la tem, 
+            max min y media in introducido
+             </summary>
+             <param name="sender">Lanza el evento de temperatura</param>
+             <param name="e">Sin uso</param>
+        </member>
         <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bPalindromo_Click(System.Object,System.EventArgs)">
             <summary>
             Ahora vamos a iniciar el programa poara saber si una palabra intooducida es palindromica
@@ -67,8 +74,8 @@
             <summary>
             Realizamos la sum de los dos numeros introducidos
             </summary>
-            <param name="num1"></param>
-            <param name="num2"></param>
+            <param name="num1">Primer numero introducido</param>
+            <param name="num2">Segundo numero introducido</param>
             <returns>En este metodo nos da el resultado de la suma</returns>
         </member>
         <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.#ctor">
@@ -80,8 +87,8 @@
             <summary>
             En este boton declaramos una serie de variables y llamamos al metodo suma
             </summary>
-            <param name="sender"></param>
-            <param name="e"></param>
+            <param name="sender">Lanza el evento de sumanmeros</param>
+            <param name="e">Sin uso</param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.components">
             <summary>
@@ -114,20 +121,24 @@
             Aqui creamos vector para la recogida de datos y posterior utilizacion
             </summary>
         </member>
-        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.temperatura(System.Int32[],System.Int32@,System.Int32@,System.Int32@)">
-            <summary>
-            Vamos a saber la temperatura media de los introducidos
-            maxima y minima
-            </summary>
-            <param name="vector">Aqui recogemos la temperratura de cada hora del dia</param>
-            <param name="maxi">Aqui introducimos la temperatura maxima</param>
-            <param name="mini">Aqui recogemos la temperatura minima</param>
-            <param name="media">Aqui recogemos la temperatura media </param>
-        </member>
         <member name="M:Proyec_Navaja_Suiza.Temp.Temp.#ctor">
             <summary>
             Instacionamos la apli
             </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.bCalcula_Click(System.Object,System.EventArgs)">
+            <summary>
+            Con este boton relalizaremos la obtencion de temp max, temp media y temp mini
+            </summary>
+            <param name="sender">Lanza evento boton de calcular MED, MIN y MAX</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.bleeTemp_Click(System.Object,System.EventArgs)">
+            <summary>
+            Vamos a guardar la temperatura de cada hora del dia, para despues realizar una serie de calculos del ortro boton
+            </summary>
+            <param name="sender">Lanza el evento de leer el vector de temperatura</param>
+            <param name="e">Sin uso</param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Temp.Temp.components">
             <summary>
@@ -146,6 +157,16 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.TempLogica.temperatura(System.Int32[],System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Vamos a saber la temperatura media de los introducidos
+            maxima y minima
+            </summary>
+            <param name="vector">Aqui recogemos la temperratura de cada hora del dia</param>
+            <param name="maxi">Aqui introducimos la temperatura maxima</param>
+            <param name="mini">Aqui recogemos la temperatura minima</param>
+            <param name="media">Aqui recogemos la temperatura media </param>
+        </member>
         <member name="T:Proyec_Navaja_Suiza.Palindromica.Palindromica">
             <summary>
             Realizamos la comparacion del string introducido y su posterior analisis
@@ -159,6 +180,13 @@
             <summary>
             Instanciamos la apli
             </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Palindromica.Palindromica.bComprueva_Click(System.Object,System.EventArgs)">
+            <summary>
+            Aqui vamos a realizar la comprovacion de  la palabra introducida es palindromica
+            </summary>
+            <param name="sender">Lanza el evento bPalindro</param>
+            <param name="e">Sin uso</param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Palindromica.Palindromica.components">
             <summary>
@@ -187,6 +215,13 @@
             <summary>
             Instanciamos la clase para el proceso
             </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.bCalcula_Click(System.Object,System.EventArgs)">
+            <summary>
+            VAmos a realizar el calculo del factotial de un numero introducido
+            </summary>
+            <param name="sender">Lanza el evento bCalcular</param>
+            <param name="e"></param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Factorial.Factorial.components">
             <summary>
@@ -219,27 +254,6 @@
             <summary>
               Invalida la propiedad CurrentUICulture del subproceso actual para todas las
               búsquedas de recursos usando esta clase de recursos fuertemente tipados.
-            </summary>
-        </member>
-        <member name="T:System.InputBoxDialog">
-             <summary>
-             Summary description for InputBox.
-            </summary>
-        </member>
-        <member name="F:System.InputBoxDialog.components">
-             <summary>
-             Required designer variable.
-            </summary>
-        </member>
-        <member name="M:System.InputBoxDialog.Dispose(System.Boolean)">
-             <summary>
-             Clean up any resources being used.
-            </summary>
-        </member>
-        <member name="M:System.InputBoxDialog.InitializeComponent">
-             <summary>
-             Required method for Designer support - do not modify
-             the contents of this method with the code editor.
             </summary>
         </member>
     </members>

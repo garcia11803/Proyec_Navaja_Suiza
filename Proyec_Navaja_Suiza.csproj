@@ -83,9 +83,6 @@
     <Compile Include="Program_2\Temp.designer.cs">
       <DependentUpon>Temp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program_2\InputBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Program_2\TempLogica.cs" />
     <Compile Include="Program_3\PalidromicaLogica.cs" />
     <Compile Include="Program_3\Palindromica.cs">

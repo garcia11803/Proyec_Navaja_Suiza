@@ -17,23 +17,7 @@ namespace Proyec_Navaja_Suiza.Palindromica
 /// </summary>
     public partial class Palindromica : Form
     {
-        bool palindromo(string frase)
-        {
-            bool palin = true;
-            int i = 0;
-            int cont = frase.Length - 1;
-
-            while(i < frase.Length / 2)
-            {
-                if(frase[i] != frase[cont])
-                {
-                    palin = false;
-                }
-                i++;
-                cont--;
-            }
-            return palin;
-        }
+        
 
         /// <summary>
         /// Instanciamos la apli
@@ -48,10 +32,12 @@ namespace Proyec_Navaja_Suiza.Palindromica
         /// <param name="sender">Lanza el evento bPalindro</param>
         /// <param name="e">Sin uso</param>
 
-        private void bPalindro_Click(object sender, EventArgs e)
+        private void bComprueva_Click(object sender, EventArgs e)
         {
-            string frase = textBox1.Text;
-            bool capicua = palindromo(frase);
+            PalidromicaLogica opalin = new PalidromicaLogica();
+
+            string frase = tPalabra.Text;
+            bool capicua = opalin.palindromo(frase);
 
             if (capicua == true)
             {

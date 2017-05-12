@@ -37,7 +37,7 @@ namespace Proyec_Navaja_Suiza
 
         /// <summary>
         /// Aqui realizamos la activacion del prorama para calcular la tem, 
-            //max min y media in introducido
+         ///max min y media in introducido
         /// </summary>
         /// <param name="sender">Lanza el evento de temperatura</param>
         /// <param name="e">Sin uso</param>

@@ -30,34 +30,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bComprueva = new System.Windows.Forms.Button();
+            this.tPalabra = new System.Windows.Forms.TextBox();
+            this.lPalabra = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // bComprueva
             // 
-            this.button1.Location = new System.Drawing.Point(140, 186);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Comprovar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.bPalindro_Click);
+            this.bComprueva.Location = new System.Drawing.Point(118, 176);
+            this.bComprueva.Name = "bComprueva";
+            this.bComprueva.Size = new System.Drawing.Size(75, 23);
+            this.bComprueva.TabIndex = 0;
+            this.bComprueva.Text = "Comprovar";
+            this.bComprueva.UseVisualStyleBackColor = true;
+            this.bComprueva.Click += new System.EventHandler(this.bComprueva_Click);
             // 
-            // textBox1
+            // tPalabra
             // 
-            this.textBox1.Location = new System.Drawing.Point(129, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.tPalabra.Location = new System.Drawing.Point(165, 64);
+            this.tPalabra.Name = "tPalabra";
+            this.tPalabra.Size = new System.Drawing.Size(100, 20);
+            this.tPalabra.TabIndex = 1;
+            // 
+            // lPalabra
+            // 
+            this.lPalabra.AutoSize = true;
+            this.lPalabra.Location = new System.Drawing.Point(40, 67);
+            this.lPalabra.Name = "lPalabra";
+            this.lPalabra.Size = new System.Drawing.Size(116, 13);
+            this.lPalabra.TabIndex = 2;
+            this.lPalabra.Text = "Comprueva la palabra: ";
             // 
             // Palindromica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(331, 326);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lPalabra);
+            this.Controls.Add(this.tPalabra);
+            this.Controls.Add(this.bComprueva);
             this.Name = "Palindromica";
             this.Text = "Es palindromica esta palabra?";
             this.ResumeLayout(false);
@@ -67,8 +78,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button bComprueva;
+        private System.Windows.Forms.TextBox tPalabra;
+        private System.Windows.Forms.Label lPalabra;
     }
 }
 
