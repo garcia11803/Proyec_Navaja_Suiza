@@ -20,27 +20,25 @@ namespace Proyec_Navaja_Suiza.Factorial
         {
             InitializeComponent();
         }
+
+
+
         /// <summary>
-        /// VAmos a realizar el calculo del factotial de un numero introducido
+        /// Boton en el cual llamamos a la logica para calcular el factorial de un numero introducido
         /// </summary>
         /// <param name="sender">Lanza el evento bCalcular</param>
-        /// <param name="e"></param>
+        /// <param name="e">sin uso</param>
         private void bCalcula_Click(object sender, EventArgs e)
         {
-            
-            int i, num,fact;
-            String texto1,texto2;
-            fact = 1;
-            texto1 = "El numero factorial de ";
-            texto2 = " es: ";
-            num = int.Parse(tNumero.Text); 
+            int otro = int.Parse(tNumero.Text);
 
-            for (i=num ;i > 0 ; i--)
-            {
-                fact = fact * i;
-                
-            }
-            MessageBox.Show(texto1 + num + texto2 + fact );
+
+            string numFac = FactorialLogica.facto(otro);
+
+            MessageBox.Show(numFac);
+
+
+
 
         }
     }
