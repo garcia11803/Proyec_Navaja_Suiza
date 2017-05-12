@@ -28,15 +28,24 @@ namespace Proyec_Navaja_Suiza.Factorial
         /// </summary>
         /// <param name="sender">Lanza el evento bCalcular</param>
         /// <param name="e">sin uso</param>
+        /// Realizamos la entrada de datos con tryParse para evitar datos erroneos
         private void bCalcula_Click(object sender, EventArgs e)
         {
-            int otro = int.Parse(tNumero.Text);
+            int otro;
+            
+            bool aotro = true;
+            aotro = int.TryParse(tNumero.Text, out otro);
 
+            if (aotro == false)
+            {
+                MessageBox.Show("Dato erroeno, debes ingresar un numero");
+            }
+            else
+            {
+                string numFac = FactorialLogica.facto(otro);
 
-            string numFac = FactorialLogica.facto(otro);
-
-            MessageBox.Show(numFac);
-
+                MessageBox.Show(numFac);
+            }
 
 
 

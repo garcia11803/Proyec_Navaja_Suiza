@@ -218,10 +218,10 @@
         </member>
         <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.bCalcula_Click(System.Object,System.EventArgs)">
             <summary>
-            VAmos a realizar el calculo del factotial de un numero introducido
+            Boton en el cual llamamos a la logica para calcular el factorial de un numero introducido
             </summary>
             <param name="sender">Lanza el evento bCalcular</param>
-            <param name="e"></param>
+            <param name="e">sin uso</param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Factorial.Factorial.components">
             <summary>
@@ -239,6 +239,18 @@
             Método necesario para admitir el Diseñador. No se puede modificar
             el contenido de este método con el editor de código.
             </summary>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Factorial.FactorialLogica">
+            <summary>
+            Clase estatica llamada factorial logica
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.FactorialLogica.facto(System.Int32)">
+            <summary>
+            Dentro de la clase vamos a realizar el calculo del factorial del numero que hemos introducido
+            </summary>
+            <param name="numero">Es el numero que metemos en el programa para realizar su factorial</param>
+            <returns></returns>
         </member>
         <member name="T:Proyec_Navaja_Suiza.Properties.Resources">
             <summary>
