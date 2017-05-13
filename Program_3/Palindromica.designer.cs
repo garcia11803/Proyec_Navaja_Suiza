@@ -53,6 +53,7 @@
             this.tPalabra.Name = "tPalabra";
             this.tPalabra.Size = new System.Drawing.Size(100, 20);
             this.tPalabra.TabIndex = 1;
+            this.tPalabra.TextChanged += new System.EventHandler(this.tPalabra_TextChanged);
             // 
             // lPalabra
             // 

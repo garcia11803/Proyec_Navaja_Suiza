@@ -54,6 +54,7 @@
             this.tNumero.Name = "tNumero";
             this.tNumero.Size = new System.Drawing.Size(100, 20);
             this.tNumero.TabIndex = 1;
+            this.tNumero.TextChanged += new System.EventHandler(this.tNumero_TextChanged);
             // 
             // lNumero
             // 

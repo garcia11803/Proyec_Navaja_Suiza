@@ -98,5 +98,15 @@ namespace Proyec_Navaja_Suiza.Temp
           FLeoVector(vector);
 
         }
+        /// <summary>
+        /// Limitacion en el textbox para  no poder iuntroducir mas de 2 cifras
+        /// </summary>
+        /// <param name="sender">Redcimos a 2 los caracteres</param>
+        /// <param name="e">aa</param>
+        private void tTemperatura_TextChanged(object sender, EventArgs e)
+        {
+            tTemperatura.MaxLength = 2;
+            
+        }
     }
 }

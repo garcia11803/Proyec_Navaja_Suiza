@@ -55,6 +55,7 @@
             this.tNumero1.Name = "tNumero1";
             this.tNumero1.Size = new System.Drawing.Size(100, 20);
             this.tNumero1.TabIndex = 1;
+            this.tNumero1.TextChanged += new System.EventHandler(this.tNumero1_TextChanged);
             // 
             // tNumero2
             // 
@@ -62,6 +63,7 @@
             this.tNumero2.Name = "tNumero2";
             this.tNumero2.Size = new System.Drawing.Size(100, 20);
             this.tNumero2.TabIndex = 2;
+            this.tNumero2.TextChanged += new System.EventHandler(this.tNumero2_TextChanged);
             // 
             // lNumero1
             // 

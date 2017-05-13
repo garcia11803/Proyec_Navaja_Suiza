@@ -46,5 +46,10 @@ namespace Proyec_Navaja_Suiza.Palindromica
             else
                 MessageBox.Show("La palabra introducida NO es palindromica");
         }
+
+        private void tPalabra_TextChanged(object sender, EventArgs e)
+        {
+            tPalabra.MaxLength = 20;
+        }
     }
 }

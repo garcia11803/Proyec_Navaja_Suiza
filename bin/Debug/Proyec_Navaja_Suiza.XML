@@ -90,6 +90,20 @@
             <param name="sender">Lanza el evento de sumanmeros</param>
             <param name="e">Sin uso</param>
         </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.tNumero1_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Vamos a limitar la cifra por la que vamos a sumar
+            </summary>
+            <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
+            <param name="e">nn</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.tNumero2_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Vamos a limitar la cifra por la que vamos a sumar
+            </summary>
+            <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
+            <param name="e">nn</param>
+        </member>
         <member name="F:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.components">
             <summary>
             Variable del diseñador necesaria.
@@ -145,6 +159,13 @@
             </summary>
             <param name="sender">Lanza el evento de leer el vector de temperatura</param>
             <param name="e">Sin uso</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.tTemperatura_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Limitacion en el textbox para  no poder iuntroducir mas de 2 cifras
+            </summary>
+            <param name="sender">Redcimos a 2 los caracteres</param>
+            <param name="e">aa</param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Temp.Temp.components">
             <summary>
@@ -230,6 +251,13 @@
             <param name="sender">Lanza el evento bCalcular</param>
             <param name="e">sin uso</param>
             Realizamos la entrada de datos con tryParse para evitar datos erroneos
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.tNumero_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Limitamos el numero de datos que vamos a introducir en el texbox
+            </summary>
+            <param name="sender">Se ha limitado a 4 y no se puede introducir mas</param>
+            <param name="e">bb</param>
         </member>
         <member name="F:Proyec_Navaja_Suiza.Factorial.Factorial.components">
             <summary>

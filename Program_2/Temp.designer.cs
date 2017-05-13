@@ -55,6 +55,7 @@
             this.tTemperatura.Name = "tTemperatura";
             this.tTemperatura.Size = new System.Drawing.Size(73, 20);
             this.tTemperatura.TabIndex = 1;
+            this.tTemperatura.TextChanged += new System.EventHandler(this.tTemperatura_TextChanged);
             // 
             // label1
             // 

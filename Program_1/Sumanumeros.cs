@@ -49,5 +49,23 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
             MessageBox.Show("El resultado de la suma es " + sumador.ToString());
 
         }
+        /// <summary>
+        /// Vamos a limitar la cifra por la que vamos a sumar
+        /// </summary>
+        /// <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
+        /// <param name="e">nn</param>
+        private void tNumero1_TextChanged(object sender, EventArgs e)
+        {
+            tNumero1.MaxLength = 10;
+        }
+        /// <summary>
+        /// Vamos a limitar la cifra por la que vamos a sumar
+        /// </summary>
+        /// <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
+        /// <param name="e">nn</param>
+        private void tNumero2_TextChanged(object sender, EventArgs e)
+        {
+            tNumero2.MaxLength = 10;
+        }
     }
 }
