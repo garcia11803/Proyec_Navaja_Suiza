@@ -11,21 +11,14 @@ using System.Windows.Forms;
     /// Aqui tenemos el nombre completo del programa
     /// </summary>
 namespace Proyec_Navaja_Suiza.Sumanumeros
-{
-    public partial class Sumanumeros : Form
-    {/// <summary>
-    /// Realizamos la sum de los dos numeros introducidos
+{   /// <summary>
+    /// Clase sumanumeros
     /// </summary>
-    /// <param name="num1">Primer numero introducido</param>
-    /// <param name="num2">Segundo numero introducido</param>
-    /// <returns>En este metodo nos da el resultado de la suma</returns>
+    public partial class Sumanumeros : Form
+    {
+         
 
-        int suma(int num1, int num2)
-        {
-            int resul;
-            resul = num1 + num2;
-            return resul;
-        }
+        
         /// <summary>
         ///   Aqui se instacia la apli
         /// </summary>
@@ -33,20 +26,24 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
         {
             InitializeComponent();
         }
+        
+
         /// <summary>
-        /// En este boton declaramos una serie de variables y llamamos al metodo suma
+        /// Realizamos la suma de dos numeros pasando por la logica
         /// </summary>
-        /// <param name="sender">Lanza el evento de sumanmeros</param>
-        /// <param name="e">Sin uso</param>
+        /// <param name="sender">Suma los numeros introducidos y validados por el try </param>
+        /// <param name="e"></param>
         private void bCalcula_Click(object sender, EventArgs e)
         {
+            int num1, num2,resul,suma;
+            bool oknumero = true;
             
-            int numero1, numero2,sumador;
-            numero1 = int.Parse(tNumero1.Text);
-            numero2 = int.Parse(tNumero2.Text);
-            sumador = suma(numero1, numero2);
+            oknumero = int.TryParse(tNumero1.Text, out num1);
+            oknumero = int.TryParse(tNumero2.Text, out num2);
+                        
+           SumanumerosLogica.lasuma(num1, num2,out resul);
 
-            MessageBox.Show("El resultado de la suma es " + sumador.ToString());
+            MessageBox.Show("El resultado de la suma de " + num1 +" y " + num2 +" es: " + resul);
 
         }
         /// <summary>

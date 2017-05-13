@@ -67,16 +67,11 @@
         </member>
         <member name="T:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros">
             <summary>
+            Clase sumanumeros
+            </summary>
+            <summary>
                 Aplicacion para sumar dos numeros
             </summary>
-        </member>
-        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.suma(System.Int32,System.Int32)">
-            <summary>
-            Realizamos la sum de los dos numeros introducidos
-            </summary>
-            <param name="num1">Primer numero introducido</param>
-            <param name="num2">Segundo numero introducido</param>
-            <returns>En este metodo nos da el resultado de la suma</returns>
         </member>
         <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.#ctor">
             <summary>
@@ -85,10 +80,10 @@
         </member>
         <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.bCalcula_Click(System.Object,System.EventArgs)">
             <summary>
-            En este boton declaramos una serie de variables y llamamos al metodo suma
+            Realizamos la suma de dos numeros pasando por la logica
             </summary>
-            <param name="sender">Lanza el evento de sumanmeros</param>
-            <param name="e">Sin uso</param>
+            <param name="sender">Suma los numeros introducidos y validados por el try </param>
+            <param name="e"></param>
         </member>
         <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.tNumero1_TextChanged(System.Object,System.EventArgs)">
             <summary>
@@ -120,6 +115,14 @@
             Método necesario para admitir el Diseñador. No se puede modificar
             el contenido de este método con el editor de código.
             </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.SumanumerosLogica.lasuma(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Realizamos la sum de los dos numeros introducidos
+            </summary>
+            <param name="num1">Primer numero introducido</param>
+            <param name="num2">Segundo numero introducido</param>
+            <param name="resul">Resultado dfe la suma de los numeros introducidos</param>
         </member>
         <member name="T:Proyec_Navaja_Suiza.Temp.Temp">
             <summary>
