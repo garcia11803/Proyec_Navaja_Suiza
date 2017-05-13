@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9F6453BA-2783-4A24-B8C1-A3AE59F4E80D}</ProjectGuid>
+    <ProjectGuid>{69904FB3-F7C3-4909-AA00-E2D6D1710B88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PruebaUnitaria_Proyecto_Navaja</RootNamespace>
-    <AssemblyName>PruebaUnitaria_Proyecto_Navaja</AssemblyName>
+    <RootNamespace>Proyec_Prueba_NavajaSuiza</RootNamespace>
+    <AssemblyName>Proyec_Prueba_NavajaSuiza</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -52,6 +52,12 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Proyec_Navaja_Suiza.csproj">
+      <Project>{0ca40508-ab65-47f3-8a81-5fa272a01c18}</Project>
+      <Name>Proyec_Navaja_Suiza</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

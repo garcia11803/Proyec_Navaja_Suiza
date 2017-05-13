@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("PruebaUnitaria_Proyecto_Navaja")]
+[assembly: AssemblyTitle("Proyec_Prueba_NavajaSuiza")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PruebaUnitaria_Proyecto_Navaja")]
+[assembly: AssemblyProduct("Proyec_Prueba_NavajaSuiza")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("9f6453ba-2783-4a24-b8c1-a3ae59f4e80d")]
+[assembly: Guid("69904fb3-f7c3-4909-aa00-e2d6d1710b88")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

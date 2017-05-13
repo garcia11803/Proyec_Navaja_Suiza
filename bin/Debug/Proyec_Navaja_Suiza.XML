@@ -116,6 +116,11 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="T:Proyec_Navaja_Suiza.Sumanumeros.SumanumerosLogica">
+            <summary>
+            Clase estatica sumanumeros logica
+            </summary>
+        </member>
         <member name="M:Proyec_Navaja_Suiza.Sumanumeros.SumanumerosLogica.lasuma(System.Int32,System.Int32,System.Int32@)">
             <summary>
             Realizamos la sum de los dos numeros introducidos

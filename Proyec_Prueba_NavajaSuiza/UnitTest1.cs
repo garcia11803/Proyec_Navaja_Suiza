@@ -1,14 +1,19 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace PruebaUnitaria_Proyecto_Navaja
+namespace Proyec_Prueba_NavajaSuiza
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestPalindromo()
         {
+
+
+
+
+
         }
     }
 }
