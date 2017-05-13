@@ -121,6 +121,12 @@
             Aqui creamos vector para la recogida de datos y posterior utilizacion
             </summary>
         </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.FLeoVector(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="vector"></param>
+        </member>
         <member name="M:Proyec_Navaja_Suiza.Temp.Temp.#ctor">
             <summary>
             Instacionamos la apli
@@ -158,6 +164,7 @@
             </summary>
         </member>
         <member name="M:Proyec_Navaja_Suiza.Temp.TempLogica.temperatura(System.Int32[],System.Int32@,System.Int32@,System.Int32@)">
+            int posicion = 0;
             <summary>
             Vamos a saber la temperatura media de los introducidos
             maxima y minima
@@ -222,6 +229,7 @@
             </summary>
             <param name="sender">Lanza el evento bCalcular</param>
             <param name="e">sin uso</param>
+            Realizamos la entrada de datos con tryParse para evitar datos erroneos
         </member>
         <member name="F:Proyec_Navaja_Suiza.Factorial.Factorial.components">
             <summary>
@@ -246,11 +254,13 @@
             </summary>
         </member>
         <member name="M:Proyec_Navaja_Suiza.Factorial.FactorialLogica.facto(System.Int32)">
-            <summary>
-            Dentro de la clase vamos a realizar el calculo del factorial del numero que hemos introducido
-            </summary>
-            <param name="numero">Es el numero que metemos en el programa para realizar su factorial</param>
-            <returns></returns>
+             <summary>
+             Dentro de la clase vamos a realizar el calculo del factorial del numero que hemos introducido
+             </summary>
+             <param name="numero">Es el numero que metemos en el programa para realizar su factorial</param>
+             <returns>Devuelve el textro con el resultado calculado en la clase</returns>
+             
+            
         </member>
         <member name="T:Proyec_Navaja_Suiza.Properties.Resources">
             <summary>

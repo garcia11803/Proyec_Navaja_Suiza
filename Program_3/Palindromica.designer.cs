@@ -37,17 +37,19 @@
             // 
             // bComprueva
             // 
-            this.bComprueva.Location = new System.Drawing.Point(118, 176);
+            this.bComprueva.BackColor = System.Drawing.Color.Silver;
+            this.bComprueva.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bComprueva.Location = new System.Drawing.Point(92, 172);
             this.bComprueva.Name = "bComprueva";
-            this.bComprueva.Size = new System.Drawing.Size(75, 23);
+            this.bComprueva.Size = new System.Drawing.Size(139, 56);
             this.bComprueva.TabIndex = 0;
             this.bComprueva.Text = "Comprovar";
-            this.bComprueva.UseVisualStyleBackColor = true;
+            this.bComprueva.UseVisualStyleBackColor = false;
             this.bComprueva.Click += new System.EventHandler(this.bComprueva_Click);
             // 
             // tPalabra
             // 
-            this.tPalabra.Location = new System.Drawing.Point(165, 64);
+            this.tPalabra.Location = new System.Drawing.Point(179, 65);
             this.tPalabra.Name = "tPalabra";
             this.tPalabra.Size = new System.Drawing.Size(100, 20);
             this.tPalabra.TabIndex = 1;
@@ -55,9 +57,10 @@
             // lPalabra
             // 
             this.lPalabra.AutoSize = true;
-            this.lPalabra.Location = new System.Drawing.Point(40, 67);
+            this.lPalabra.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPalabra.Location = new System.Drawing.Point(12, 67);
             this.lPalabra.Name = "lPalabra";
-            this.lPalabra.Size = new System.Drawing.Size(116, 13);
+            this.lPalabra.Size = new System.Drawing.Size(149, 18);
             this.lPalabra.TabIndex = 2;
             this.lPalabra.Text = "Comprueva la palabra: ";
             // 
@@ -65,6 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(331, 326);
             this.Controls.Add(this.lPalabra);
             this.Controls.Add(this.tPalabra);

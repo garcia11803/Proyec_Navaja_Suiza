@@ -39,12 +39,14 @@
             // 
             // bCalcula
             // 
-            this.bCalcula.Location = new System.Drawing.Point(170, 203);
+            this.bCalcula.BackColor = System.Drawing.Color.Silver;
+            this.bCalcula.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bCalcula.Location = new System.Drawing.Point(117, 203);
             this.bCalcula.Name = "bCalcula";
-            this.bCalcula.Size = new System.Drawing.Size(75, 23);
+            this.bCalcula.Size = new System.Drawing.Size(128, 49);
             this.bCalcula.TabIndex = 0;
             this.bCalcula.Text = "Calcula";
-            this.bCalcula.UseVisualStyleBackColor = true;
+            this.bCalcula.UseVisualStyleBackColor = false;
             this.bCalcula.Click += new System.EventHandler(this.bCalcula_Click);
             // 
             // tNumero1
@@ -64,18 +66,20 @@
             // lNumero1
             // 
             this.lNumero1.AutoSize = true;
+            this.lNumero1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lNumero1.Location = new System.Drawing.Point(24, 49);
             this.lNumero1.Name = "lNumero1";
-            this.lNumero1.Size = new System.Drawing.Size(53, 13);
+            this.lNumero1.Size = new System.Drawing.Size(68, 18);
             this.lNumero1.TabIndex = 3;
             this.lNumero1.Text = "Numero 1";
             // 
             // lNumero2
             // 
             this.lNumero2.AutoSize = true;
+            this.lNumero2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lNumero2.Location = new System.Drawing.Point(27, 105);
             this.lNumero2.Name = "lNumero2";
-            this.lNumero2.Size = new System.Drawing.Size(53, 13);
+            this.lNumero2.Size = new System.Drawing.Size(68, 18);
             this.lNumero2.TabIndex = 4;
             this.lNumero2.Text = "Numero 2";
             // 
@@ -83,6 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(423, 378);
             this.Controls.Add(this.lNumero2);
             this.Controls.Add(this.lNumero1);

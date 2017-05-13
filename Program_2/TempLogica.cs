@@ -9,7 +9,7 @@ namespace Proyec_Navaja_Suiza.Temp
     public class TempLogica
     {
         const int Khoras = 24;
-        int posicion = 0;
+        ///int posicion = 0;
         
         
         

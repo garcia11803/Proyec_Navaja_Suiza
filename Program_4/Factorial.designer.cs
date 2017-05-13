@@ -38,17 +38,19 @@
             // 
             // bCalcula
             // 
-            this.bCalcula.Location = new System.Drawing.Point(133, 234);
+            this.bCalcula.BackColor = System.Drawing.Color.Silver;
+            this.bCalcula.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bCalcula.Location = new System.Drawing.Point(102, 198);
             this.bCalcula.Name = "bCalcula";
-            this.bCalcula.Size = new System.Drawing.Size(133, 23);
+            this.bCalcula.Size = new System.Drawing.Size(184, 71);
             this.bCalcula.TabIndex = 0;
             this.bCalcula.Text = "Calcular Factorial";
-            this.bCalcula.UseVisualStyleBackColor = true;
+            this.bCalcula.UseVisualStyleBackColor = false;
             this.bCalcula.Click += new System.EventHandler(this.bCalcula_Click);
             // 
             // tNumero
             // 
-            this.tNumero.Location = new System.Drawing.Point(166, 103);
+            this.tNumero.Location = new System.Drawing.Point(186, 103);
             this.tNumero.Name = "tNumero";
             this.tNumero.Size = new System.Drawing.Size(100, 20);
             this.tNumero.TabIndex = 1;
@@ -56,16 +58,18 @@
             // lNumero
             // 
             this.lNumero.AutoSize = true;
-            this.lNumero.Location = new System.Drawing.Point(78, 106);
+            this.lNumero.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNumero.Location = new System.Drawing.Point(33, 106);
             this.lNumero.Name = "lNumero";
-            this.lNumero.Size = new System.Drawing.Size(44, 13);
+            this.lNumero.Size = new System.Drawing.Size(129, 18);
             this.lNumero.TabIndex = 2;
-            this.lNumero.Text = "Numero";
+            this.lNumero.Text = "Introduce el numero";
             // 
             // Factorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(439, 411);
             this.Controls.Add(this.lNumero);
             this.Controls.Add(this.tNumero);

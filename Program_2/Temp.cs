@@ -12,6 +12,7 @@ namespace Proyec_Navaja_Suiza.Temp
 {/// <summary>
 /// Clas e creada para la realizacion del programa de temeratura
 /// </summary>
+
     public partial class Temp : Form
     {
         TempLogica otemperatura = new TempLogica();
@@ -26,7 +27,10 @@ namespace Proyec_Navaja_Suiza.Temp
         const int Khoras = 24;
 
         int[] vector = new int[Khoras];
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="vector"></param>
         public void FLeoVector(int[] vector)
         {
             bool bNumeroCorrecto;
@@ -44,7 +48,7 @@ namespace Proyec_Navaja_Suiza.Temp
                 }
                 else
                 {
-                    MessageBox.Show("Vector lleno");
+                    MessageBox.Show("Completado los temperaturas del dia");
                 }
             }
             else
@@ -73,7 +77,7 @@ namespace Proyec_Navaja_Suiza.Temp
             
             int tempmedia, maxima, minima;
             
-            //leervector(vector);
+           
             otemperatura.temperatura(vector, out maxima, out minima, out tempmedia);
 
             MessageBox.Show("La temperatura maxima es  " + maxima + ", la temperatura minima es " +

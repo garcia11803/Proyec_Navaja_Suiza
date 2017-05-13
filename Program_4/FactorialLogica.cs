@@ -13,7 +13,9 @@ namespace Proyec_Navaja_Suiza.Factorial
     /// Dentro de la clase vamos a realizar el calculo del factorial del numero que hemos introducido
     /// </summary>
     /// <param name="numero">Es el numero que metemos en el programa para realizar su factorial</param>
-    /// <returns></returns>
+    /// <returns>Devuelve el textro con el resultado calculado en la clase</returns>
+    /// 
+    ///
         public static string facto( int numero)
         {
             string text="El factorial del numero introducido es: ";

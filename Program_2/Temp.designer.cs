@@ -39,17 +39,19 @@
             // 
             // bTemp
             // 
-            this.bTemp.Location = new System.Drawing.Point(89, 226);
+            this.bTemp.BackColor = System.Drawing.Color.Silver;
+            this.bTemp.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bTemp.Location = new System.Drawing.Point(60, 223);
             this.bTemp.Name = "bTemp";
-            this.bTemp.Size = new System.Drawing.Size(205, 23);
+            this.bTemp.Size = new System.Drawing.Size(248, 49);
             this.bTemp.TabIndex = 0;
             this.bTemp.Text = "Saca la temperatura media,max y min";
-            this.bTemp.UseVisualStyleBackColor = true;
+            this.bTemp.UseVisualStyleBackColor = false;
             this.bTemp.Click += new System.EventHandler(this.bCalcula_Click);
             // 
             // tTemperatura
             // 
-            this.tTemperatura.Location = new System.Drawing.Point(181, 65);
+            this.tTemperatura.Location = new System.Drawing.Point(208, 70);
             this.tTemperatura.Name = "tTemperatura";
             this.tTemperatura.Size = new System.Drawing.Size(73, 20);
             this.tTemperatura.TabIndex = 1;
@@ -57,26 +59,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(43, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 13);
+            this.label1.Size = new System.Drawing.Size(159, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "Introduce la temperatura";
             // 
             // bleeTemp
             // 
-            this.bleeTemp.Location = new System.Drawing.Point(129, 137);
+            this.bleeTemp.BackColor = System.Drawing.Color.Silver;
+            this.bleeTemp.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bleeTemp.Location = new System.Drawing.Point(89, 137);
             this.bleeTemp.Name = "bleeTemp";
-            this.bleeTemp.Size = new System.Drawing.Size(138, 23);
+            this.bleeTemp.Size = new System.Drawing.Size(178, 45);
             this.bleeTemp.TabIndex = 3;
             this.bleeTemp.Text = "Introducir temperaturas";
-            this.bleeTemp.UseVisualStyleBackColor = true;
+            this.bleeTemp.UseVisualStyleBackColor = false;
             this.bleeTemp.Click += new System.EventHandler(this.bleeTemp_Click);
             // 
             // Temp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(388, 324);
             this.Controls.Add(this.bleeTemp);
             this.Controls.Add(this.label1);
