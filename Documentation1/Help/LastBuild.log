@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Documentation1\Documentation1.shfbproj" started="10/05/2017 13:33:52">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Documentation1\Documentation1.shfbproj" started="14/05/2017 11:57:40">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -16,9 +16,12 @@ Lightweight Website Style Version 2017.1.28.0
 Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-    Last step completed in 00:00:00,0624
+    Last step completed in 00:00:00,0020
 </buildStep>
 <buildStep step="Failed">
 

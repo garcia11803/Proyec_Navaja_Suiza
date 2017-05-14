@@ -40,13 +40,37 @@ namespace Proyec_Navaja_Suiza.Palindromica
 
             string frase = tPalabra.Text;
             bool capicua = opalin.palindromo(frase);
+            string resultado = "";
 
-            if (capicua == true)
+
+            try
             {
-                MessageBox.Show("La palabra introducida es palindromica");
+                if (String.IsNullOrWhiteSpace((tPalabra.Text)))
+                {
+                   resultado = "AVISO: Estado vacio debes introducir una palabra ";
+                }
+                else
+                {
+                    if (capicua == true)
+                    {
+                        resultado = "La palabra introducida es palindromica";
+                    }
+                    else
+                        resultado = "La palabra introducida NO es palindromica";
+                }
+
+                MessageBox.Show(resultado);
             }
-            else
-                MessageBox.Show("La palabra introducida NO es palindromica");
+
+           
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Se ha producido un error:" );
+            }
+
+
+            
         }
 
         private void tPalabra_TextChanged(object sender, EventArgs e)

@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Proyec_Navaja_Suiza</name>
+    </assembly>
+    <members>
+        <member name="T:Proyec_Navaja_Suiza.Navaja_Suiza">
+            <summary>
+                Clase base,del proyecto
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.#ctor">
+            <summary>
+                Instanciador de la clase principal, parte fundamental del programa
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bSumanumeros_Click(System.Object,System.EventArgs)">
+            <summary>
+            En este boton realizamos la llamada al programa sumanumeros
+            </summary>
+            <param name="sender">Lanza el evento de sumanumeros</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bTemperatura_Click(System.Object,System.EventArgs)">
+             <summary>
+             Aqui realizamos la activacion del prorama para calcular la tem, 
+            max min y media in introducido
+             </summary>
+             <param name="sender">Lanza el evento de temperatura</param>
+             <param name="e">Sin uso</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bPalindromo_Click(System.Object,System.EventArgs)">
+            <summary>
+            Ahora vamos a iniciar el programa poara saber si una palabra intooducida es palindromica
+            </summary>
+            <param name="sender">Lanza el evento de boton Palindrmo</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.bFactorial_Click(System.Object,System.EventArgs)">
+            <summary>
+            Aqui iniciamos el programa para saber el factorial de un numero introducido
+            </summary>
+            <param name="sender">Lanza el evento de boton factorial</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="F:Proyec_Navaja_Suiza.Navaja_Suiza.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Navaja_Suiza.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros">
+            <summary>
+            Clase sumanumeros
+            </summary>
+            <summary>
+                Aplicacion para sumar dos numeros
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.#ctor">
+            <summary>
+              Aqui se instacia la apli
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.bCalcula_Click(System.Object,System.EventArgs)">
+            <summary>
+            Realizamos la suma de dos numeros pasando por la logica
+            </summary>
+            <param name="sender">Suma los numeros introducidos y validados por el try </param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.tNumero1_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Vamos a limitar la cifra por la que vamos a sumar
+            </summary>
+            <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
+            <param name="e">nn</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.tNumero2_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Vamos a limitar la cifra por la que vamos a sumar
+            </summary>
+            <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
+            <param name="e">nn</param>
+        </member>
+        <member name="F:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.Sumanumeros.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Sumanumeros.SumanumerosLogica">
+            <summary>
+            Clase estatica sumanumeros logica
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Sumanumeros.SumanumerosLogica.lasuma(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Realizamos la sum de los dos numeros introducidos
+            </summary>
+            <param name="num1">Primer numero introducido</param>
+            <param name="num2">Segundo numero introducido</param>
+            <param name="resul">Resultado dfe la suma de los numeros introducidos</param>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Temp.Temp">
+            <summary>
+            Clas e creada para la realizacion del programa de temeratura
+            </summary>
+            <summary>
+            Creamos otra clase para la utilizacion de la creacion de temperatura
+            media, maxima y minima
+            </summary>
+        </member>
+        <member name="F:Proyec_Navaja_Suiza.Temp.Temp.Khoras">
+            <summary>
+            Aqui creamos vector para la recogida de datos y posterior utilizacion
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.FLeoVector(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="vector"></param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.#ctor">
+            <summary>
+            Instacionamos la apli
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.bCalcula_Click(System.Object,System.EventArgs)">
+            <summary>
+            Con este boton relalizaremos la obtencion de temp max, temp media y temp mini
+            </summary>
+            <param name="sender">Lanza evento boton de calcular MED, MIN y MAX</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.bleeTemp_Click(System.Object,System.EventArgs)">
+            <summary>
+            Vamos a guardar la temperatura de cada hora del dia, para despues realizar una serie de calculos del ortro boton
+            </summary>
+            <param name="sender">Lanza el evento de leer el vector de temperatura</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.tTemperatura_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Limitacion en el textbox para  no poder iuntroducir mas de 2 cifras
+            </summary>
+            <param name="sender">Redcimos a 2 los caracteres</param>
+            <param name="e">aa</param>
+        </member>
+        <member name="F:Proyec_Navaja_Suiza.Temp.Temp.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.Temp.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Temp.TempLogica.temperatura(System.Int32[],System.Int32@,System.Int32@,System.Int32@)">
+            int posicion = 0;
+            <summary>
+            Vamos a saber la temperatura media de los introducidos
+            maxima y minima
+            </summary>
+            <param name="vector">Aqui recogemos la temperratura de cada hora del dia</param>
+            <param name="maxi">Aqui introducimos la temperatura maxima</param>
+            <param name="mini">Aqui recogemos la temperatura minima</param>
+            <param name="media">Aqui recogemos la temperatura media </param>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Palindromica.Palindromica">
+            <summary>
+            Realizamos la comparacion del string introducido y su posterior analisis
+            si la palabra es palindromica.
+            </summary>
+            <summary>
+            Creamos esta clase que nos servira para saber si una palabra es palindromica
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Palindromica.Palindromica.#ctor">
+            <summary>
+            Instanciamos la apli
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Palindromica.Palindromica.bComprueva_Click(System.Object,System.EventArgs)">
+            <summary>
+            Aqui vamos a realizar la comprovacion de  la palabra introducida es palindromica
+            </summary>
+            <param name="sender">Lanza el evento bPalindro</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="F:Proyec_Navaja_Suiza.Palindromica.Palindromica.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Palindromica.Palindromica.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Palindromica.Palindromica.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Factorial.Factorial">
+            <summary>
+            Creamos la clase para la comprovacion de su uso del numero introducido, 
+            calculam,os su factorial.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.#ctor">
+            <summary>
+            Instanciamos la clase para el proceso
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.bCalcula_Click(System.Object,System.EventArgs)">
+            <summary>
+            Boton en el cual llamamos a la logica para calcular el factorial de un numero introducido
+            </summary>
+            <param name="sender">Lanza el evento bCalcular</param>
+            <param name="e">sin uso</param>
+            Realizamos la entrada de datos con tryParse para evitar datos erroneos
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.tNumero_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Limitamos el numero de datos que vamos a introducir en el texbox
+            </summary>
+            <param name="sender">Se ha limitado a 4 y no se puede introducir mas</param>
+            <param name="e">bb</param>
+        </member>
+        <member name="F:Proyec_Navaja_Suiza.Factorial.Factorial.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.Factorial.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Factorial.FactorialLogica">
+            <summary>
+            Clase estatica llamada factorial logica
+            </summary>
+        </member>
+        <member name="M:Proyec_Navaja_Suiza.Factorial.FactorialLogica.facto(System.Int32)">
+             <summary>
+             Dentro de la clase vamos a realizar el calculo del factorial del numero que hemos introducido
+             </summary>
+             <param name="numero">Es el numero que metemos en el programa para realizar su factorial</param>
+             <returns>Devuelve el textro con el resultado calculado en la clase</returns>
+             
+            
+        </member>
+        <member name="T:Proyec_Navaja_Suiza.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Proyec_Navaja_Suiza.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Proyec_Navaja_Suiza.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>
