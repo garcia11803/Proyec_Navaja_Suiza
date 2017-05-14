@@ -36,14 +36,21 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
         private void bCalcula_Click(object sender, EventArgs e)
         {
             int num1, num2,resul,suma;
-            bool oknumero = true;
-            
-            oknumero = int.TryParse(tNumero1.Text, out num1);
-            oknumero = int.TryParse(tNumero2.Text, out num2);
+            bool oknumero1 = false;
+            bool oknumero2 = false;
+            if ((oknumero1 = int.TryParse(tNumero1.Text, out num1) == true) && (oknumero2 = int.TryParse(tNumero2.Text, out num2)))
+            {
+                SumanumerosLogica.lasuma(num1, num2, out resul);
+                MessageBox.Show("El resultado de la suma de " + num1 + " y " + num2 + " es: " + resul);
+            }
+            else
+            {
+                MessageBox.Show("Agun caracter no permitido, revise y vuelva a intentarlo");
+            }
                         
-           SumanumerosLogica.lasuma(num1, num2,out resul);
+           
 
-            MessageBox.Show("El resultado de la suma de " + num1 +" y " + num2 +" es: " + resul);
+            
 
         }
         /// <summary>

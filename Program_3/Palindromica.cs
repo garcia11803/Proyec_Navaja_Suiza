@@ -44,7 +44,7 @@ namespace Proyec_Navaja_Suiza.Palindromica
 
 
             try
-            {
+            {///Vamos a comprovar que no este vacio el textbox, para dar un aviso al usuario
                 if (String.IsNullOrWhiteSpace((tPalabra.Text)))
                 {
                    resultado = "AVISO: Estado vacio debes introducir una palabra ";
@@ -72,7 +72,11 @@ namespace Proyec_Navaja_Suiza.Palindromica
 
             
         }
-
+        /// <summary>
+        /// Limitamos el text box para que no puedan meter mas de 20 letras
+        /// </summary>
+        /// <param name="sender">Se podran ingresar hasta 20 letras </param>
+        /// <param name="e"></param>
         private void tPalabra_TextChanged(object sender, EventArgs e)
         {
             tPalabra.MaxLength = 20;

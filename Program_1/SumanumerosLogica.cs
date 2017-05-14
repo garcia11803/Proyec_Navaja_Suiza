@@ -17,11 +17,11 @@ namespace Proyec_Navaja_Suiza.Sumanumeros
         /// <param name="num1">Primer numero introducido</param>
         /// <param name="num2">Segundo numero introducido</param>
         /// <param name="resul">Resultado dfe la suma de los numeros introducidos</param>
-        public static void lasuma(int num1,int num2,out int resul)
+        public static int lasuma(int num1,int num2,out int resul)
         {
             resul = num1 + num2;
 
-
+            return resul;
         }
         
     }

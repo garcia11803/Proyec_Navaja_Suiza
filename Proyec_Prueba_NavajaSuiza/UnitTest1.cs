@@ -67,16 +67,55 @@ namespace Proyec_Navaja_Suiza
 
 
         }
-            
+            /// <summary>
+            /// Realizamos test de suma de dos numeros positivos  con resultado 
+            /// </summary>
         [TestMethod]
-        public void TestSumaNumeros()
+        public void TestSumaNumeros1()
         {
             //escenario
+            int num3;
 
             //accion
+            int resul = Sumanumeros.SumanumerosLogica.lasuma(2,5,out num3);
 
             //afirmacion
-
+            Assert.AreEqual(7, resul);
         }
-     }
+        /// <summary>
+        /// Realizamos la suma de dos numeros negativos y prueba OK
+        /// </summary>
+        [TestMethod]
+        public void TestSumaNumeros2()
+        {
+            //escenario
+            int num3;
+
+            //accion
+            int resul = Sumanumeros.SumanumerosLogica.lasuma(-2, -5, out num3);
+
+            //afirmacion
+            Assert.AreEqual(-7, resul);
+        }
+        /// <summary>
+        /// Realizamos la suma de un numero negativo y otro positivo.OK
+        /// </summary>
+        [TestMethod]
+        public void TestSumaNumeros3()
+        {
+            //escenario
+            int num3;
+
+            //accion
+            int resul = Sumanumeros.SumanumerosLogica.lasuma(-2, 5, out num3);
+
+            //afirmacion
+            Assert.AreEqual(3, resul);
+        }
+        //No realizamos prueba con caracteres no numero ya que se ha limitado en la entrada de datos.
+
+
+
+
+    }
 }

@@ -224,6 +224,13 @@
             <param name="sender">Lanza el evento bPalindro</param>
             <param name="e">Sin uso</param>
         </member>
+        <member name="M:Proyec_Navaja_Suiza.Palindromica.Palindromica.tPalabra_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Limitamos el text box para que no puedan meter mas de 20 letras
+            </summary>
+            <param name="sender">Se podran ingresar hasta 20 letras </param>
+            <param name="e"></param>
+        </member>
         <member name="F:Proyec_Navaja_Suiza.Palindromica.Palindromica.components">
             <summary>
             Variable del diseñador necesaria.
