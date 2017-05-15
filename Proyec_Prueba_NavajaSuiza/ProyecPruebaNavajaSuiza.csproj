@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Proyec_Navaja_Suiza.csproj">
+    <ProjectReference Include="..\ProyecNavajaSuiza.csproj">
       <Project>{0ca40508-ab65-47f3-8a81-5fa272a01c18}</Project>
-      <Name>Proyec_Navaja_Suiza</Name>
+      <Name>ProyecNavajaSuiza</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyec_Navaja_Suiza", "Proyec_Navaja_Suiza.csproj", "{0CA40508-AB65-47F3-8A81-5FA272A01C18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyecNavajaSuiza", "ProyecNavajaSuiza.csproj", "{0CA40508-AB65-47F3-8A81-5FA272A01C18}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation1", "Documentation1\Documentation1.shfbproj", "{DC861476-310C-4294-B036-2A8B62DDCFA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyec_Prueba_NavajaSuiza", "Proyec_Prueba_NavajaSuiza\Proyec_Prueba_NavajaSuiza.csproj", "{69904FB3-F7C3-4909-AA00-E2D6D1710B88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyecPruebaNavajaSuiza", "Proyec_Prueba_NavajaSuiza\ProyecPruebaNavajaSuiza.csproj", "{69904FB3-F7C3-4909-AA00-E2D6D1710B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

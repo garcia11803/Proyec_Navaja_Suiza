@@ -64,55 +64,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Navaja_Suiza.cs">
+    <Compile Include="NavajaSuiza.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Navaja_Suiza.Designer.cs">
-      <DependentUpon>Navaja_Suiza.cs</DependentUpon>
+    <Compile Include="NavajaSuiza.Designer.cs">
+      <DependentUpon>NavajaSuiza.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Program_1\Sumanumeros.cs">
+    <Compile Include="Program1\Sumanumeros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program_1\Sumanumeros.designer.cs">
+    <Compile Include="Program1\Sumanumeros.designer.cs">
       <DependentUpon>Sumanumeros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program_1\SumanumerosLogica.cs" />
-    <Compile Include="Program_2\Temp.cs">
+    <Compile Include="Program1\SumanumerosLogica.cs" />
+    <Compile Include="Program2\Temp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program_2\Temp.designer.cs">
+    <Compile Include="Program2\Temp.designer.cs">
       <DependentUpon>Temp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program_2\TempLogica.cs" />
-    <Compile Include="Program_3\PalidromicaLogica.cs" />
-    <Compile Include="Program_3\Palindromica.cs">
+    <Compile Include="Program2\TempLogica.cs" />
+    <Compile Include="Program3\PalidromicaLogica.cs" />
+    <Compile Include="Program3\Palindromica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program_3\Palindromica.designer.cs">
+    <Compile Include="Program3\Palindromica.designer.cs">
       <DependentUpon>Palindromica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program_4\Factorial.cs">
+    <Compile Include="Program4\Factorial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program_4\Factorial.designer.cs">
+    <Compile Include="Program4\Factorial.designer.cs">
       <DependentUpon>Factorial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program_4\FactorialLogica.cs" />
+    <Compile Include="Program4\FactorialLogica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Navaja_Suiza.resx">
-      <DependentUpon>Navaja_Suiza.cs</DependentUpon>
+    <EmbeddedResource Include="NavajaSuiza.resx">
+      <DependentUpon>NavajaSuiza.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Program_1\Sumanumeros.resx">
+    <EmbeddedResource Include="Program1\Sumanumeros.resx">
       <DependentUpon>Sumanumeros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Program_2\Temp.resx">
+    <EmbeddedResource Include="Program2\Temp.resx">
       <DependentUpon>Temp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Program_3\Palindromica.resx">
+    <EmbeddedResource Include="Program3\Palindromica.resx">
       <DependentUpon>Palindromica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Program_4\Factorial.resx">
+    <EmbeddedResource Include="Program4\Factorial.resx">
       <DependentUpon>Factorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

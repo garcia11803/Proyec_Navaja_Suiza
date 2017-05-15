@@ -40,6 +40,7 @@
             // bTemp
             // 
             this.bTemp.BackColor = System.Drawing.Color.Silver;
+            this.bTemp.Enabled = false;
             this.bTemp.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTemp.Location = new System.Drawing.Point(60, 223);
             this.bTemp.Name = "bTemp";
@@ -70,6 +71,7 @@
             // bleeTemp
             // 
             this.bleeTemp.BackColor = System.Drawing.Color.Silver;
+            this.bleeTemp.Enabled = false;
             this.bleeTemp.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bleeTemp.Location = new System.Drawing.Point(89, 137);
             this.bleeTemp.Name = "bleeTemp";
@@ -91,6 +93,7 @@
             this.Controls.Add(this.bTemp);
             this.Name = "Temp";
             this.Text = "Temperatura";
+            this.Load += new System.EventHandler(this.Temp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

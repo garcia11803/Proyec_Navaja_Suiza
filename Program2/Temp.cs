@@ -19,12 +19,36 @@ namespace ProyecNavajaSuiza.Temp
 
         int posicion = 0;
 
+
+        void desactivaboton()
+        {
+            if (posicion >= Khoras -1)
+            {
+                bTemp.Enabled = true;
+                
+            }
+            else
+            {
+                bTemp.Enabled = false;
+                
+            }
+
+            if (posicion < Khoras)
+            {
+                bleeTemp.Enabled = true;
+                
+            }
+            else
+            {
+                bleeTemp.Enabled = false;
+            }
+        }
         
 
         /// <summary>
         /// Aqui creamos vector para la recogida de datos y posterior utilizacion
         /// </summary>
-        const int Khoras = 24;
+        const int Khoras = 4;
 
         int[] vector = new int[Khoras];
         /// <summary>
@@ -40,7 +64,7 @@ namespace ProyecNavajaSuiza.Temp
 
             if (bNumeroCorrecto)
             {
-                if (posicion < vector.Length)
+                if (posicion < vector.Length )
                 {
                     vector[posicion] = numero;
                     tTemperatura.Text = "";
@@ -55,7 +79,9 @@ namespace ProyecNavajaSuiza.Temp
             {
                 MessageBox.Show("¡Error! El valor introducido por el usuario no es un número entero");
             }
+            
         }
+
 
 
 
@@ -82,7 +108,7 @@ namespace ProyecNavajaSuiza.Temp
 
             MessageBox.Show("La temperatura maxima es  " + maxima + ", la temperatura minima es " +
                 minima +", la temperatura media es " + tempmedia);
-
+            desactivaboton();
 
 
 
@@ -96,6 +122,7 @@ namespace ProyecNavajaSuiza.Temp
         {
 
           FLeoVector(vector);
+            desactivaboton();
 
         }
         /// <summary>
@@ -107,6 +134,11 @@ namespace ProyecNavajaSuiza.Temp
         {
             tTemperatura.MaxLength = 2;
             
+        }
+
+        private void Temp_Load(object sender, EventArgs e)
+        {
+            desactivaboton();
         }
     }
 }

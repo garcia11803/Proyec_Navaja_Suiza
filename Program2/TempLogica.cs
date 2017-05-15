@@ -8,8 +8,8 @@ namespace ProyecNavajaSuiza.Temp
 {
     public class TempLogica
     {
-        const int Khoras = 24;
-        ///int posicion = 0;
+        const int Khoras = 4;
+        
         
         
         
@@ -24,7 +24,7 @@ namespace ProyecNavajaSuiza.Temp
         public void temperatura(int[] vector, out int maxi, out int mini, out int media)
         {
             maxi = vector[0];
-            mini = vector[0];
+            mini = maxi;
             media = 0;
 
             for (int i = 0; i < vector.Length; i++)
@@ -33,10 +33,13 @@ namespace ProyecNavajaSuiza.Temp
                 {
                     maxi = vector[i];
                 }
-                if (vector[i] < mini)
+                else
                 {
-                    mini = vector[i];
+                    if (vector[i] < mini)
+                    {
+                        mini = vector[i];
 
+                    }
                 }
                 media = media + vector[i];
             }
