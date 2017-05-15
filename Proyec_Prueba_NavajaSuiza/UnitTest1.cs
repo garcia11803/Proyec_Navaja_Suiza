@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Proyec_Navaja_Suiza
+namespace ProyecNavajaSuiza
 {
     [TestClass]
     public class UnitTest1

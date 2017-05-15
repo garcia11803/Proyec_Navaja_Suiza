@@ -1,4 +1,4 @@
-﻿namespace Proyec_Navaja_Suiza.Sumanumeros
+﻿namespace ProyecNavajaSuiza.Sumanumeros
 {/// <summary>
 ///     Aplicacion para sumar dos numeros
 /// </summary>

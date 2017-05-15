@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyec_Navaja_Suiza.Palindromica
+namespace ProyecNavajaSuiza.Palindromica
 {
     public class PalidromicaLogica
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace Proyec_Navaja_Suiza.Sumanumeros
+namespace ProyecNavajaSuiza.Sumanumeros
 {/// <summary>
 /// Clase estatica sumanumeros logica
 /// </summary>

@@ -1,4 +1,4 @@
-﻿namespace Proyec_Navaja_Suiza.Factorial
+﻿namespace ProyecNavajaSuiza.Factorial
 {/// <summary>
 /// Creamos la clase para la comprovacion de su uso del numero introducido, 
 /// calculam,os su factorial.

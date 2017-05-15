@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Proyec_Navaja_Suiza.Properties
+namespace ProyecNavajaSuiza.Properties
 {
 
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Proyec_Navaja_Suiza
+namespace ProyecNavajaSuiza
 {
     static class Program
     {

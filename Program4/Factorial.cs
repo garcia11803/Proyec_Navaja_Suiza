@@ -10,7 +10,7 @@ using System.Windows.Forms;
 /// <summary>
 /// Para saber el  factorial de un numero utilizaremos este programa
 /// </summary>
-namespace Proyec_Navaja_Suiza.Factorial
+namespace ProyecNavajaSuiza.Factorial
 {
     public partial class Factorial : Form
     {/// <summary>

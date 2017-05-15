@@ -10,7 +10,7 @@ using System.Windows.Forms;
     /// <summary>
     /// Aqui tenemos el nombre completo del programa
     /// </summary>
-namespace Proyec_Navaja_Suiza.Sumanumeros
+namespace ProyecNavajaSuiza.Sumanumeros
 {   /// <summary>
     /// Clase sumanumeros
     /// </summary>

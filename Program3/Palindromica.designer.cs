@@ -1,4 +1,4 @@
-﻿namespace Proyec_Navaja_Suiza.Palindromica
+﻿namespace ProyecNavajaSuiza.Palindromica
 {/// <summary>
 /// Creamos esta clase que nos servira para saber si una palabra es palindromica
 /// </summary>

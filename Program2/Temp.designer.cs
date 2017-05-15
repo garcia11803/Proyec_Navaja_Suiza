@@ -1,4 +1,4 @@
-﻿namespace Proyec_Navaja_Suiza.Temp
+﻿namespace ProyecNavajaSuiza.Temp
 {/// <summary>
 /// Creamos otra clase para la utilizacion de la creacion de temperatura
 /// media, maxima y minima

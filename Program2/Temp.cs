@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Proyec_Navaja_Suiza.Temp
+namespace ProyecNavajaSuiza.Temp
 {/// <summary>
 /// Clas e creada para la realizacion del programa de temeratura
 /// </summary>
