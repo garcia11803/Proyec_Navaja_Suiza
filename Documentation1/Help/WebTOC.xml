@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/560c50b9-96b7-4762-8a28-15d251297370.htm" />
+  <HelpTOCNode Id="40f81c0a-addb-4f51-aeec-708c32ec5898" Title="Version History" Url="html/045d2659-d205-4957-81e3-8d1f91515518.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/8a9990f6-8ac3-4afc-9a09-7786ce73149e.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="dba66b24-8790-4a97-9841-51e8f70ccd4d" Title="Proyec_Navaja_Suiza" Url="html/bfcec493-6ea6-3af5-dabe-7da1dabf3329.htm">
+    <HelpTOCNode Id="d4c53216-0490-45a5-9214-0d45b1323421" Title="UnitTest1 (Clase)" Url="html/9445280e-6c7d-409a-97e5-fdbd00b4eb65.htm">
+      <HelpTOCNode Title="UnitTest1 (Constructor )" Url="html/1860f842-d23a-d01e-9b8a-1a60092dfa1d.htm" />
+      <HelpTOCNode Id="f947a4fa-7387-415f-84f7-1ba97fd6466a" Title="UnitTest1 (M&#233;todos)" Url="html/9339e14c-9c44-a9a6-88cb-8e49319bce34.htm">
+        <HelpTOCNode Title="TestPalindromo1 (M&#233;todo )" Url="html/df27e696-b3bd-770e-4fba-c80b021dfaaa.htm" />
+        <HelpTOCNode Title="TestPalindromo2 (M&#233;todo )" Url="html/cf35b164-1774-beab-f2e3-6117baf53df3.htm" />
+        <HelpTOCNode Title="TestSumaNumeros1 (M&#233;todo )" Url="html/511c55ee-6425-44ab-8eb6-6a5cce6c8301.htm" />
+        <HelpTOCNode Title="TestSumaNumeros2 (M&#233;todo )" Url="html/932d0085-8e2a-bdce-58e5-fbbf1012faae.htm" />
+        <HelpTOCNode Title="TestSumaNumeros3 (M&#233;todo )" Url="html/82ff84a3-3080-6b80-51e4-cf9fdc422066.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="75a8bf10-8240-4731-94ec-ec4c48a30f4c" Title="ProyecNavajaSuiza" Url="html/30ecf322-bfc7-e268-533c-5a9f3132a7df.htm">
+    <HelpTOCNode Id="bf955606-7a26-4a80-b27e-3455be738877" Title="Navaja_Suiza (Clase)" Url="html/a2e8d6d1-42b0-dc6b-5d10-be75bac638e5.htm">
+      <HelpTOCNode Title="Navaja_Suiza (Constructor )" Url="html/3249bdfa-90df-9359-aa45-b47653598d42.htm" />
+      <HelpTOCNode Title="Navaja_Suiza (Propiedades)" Url="html/3b3fb734-dcc4-79c8-c024-b81fd9753499.htm" />
+      <HelpTOCNode Id="41523103-4d28-4bfa-8095-18fc5d10a085" Title="Navaja_Suiza (M&#233;todos)" Url="html/24e85de8-12f7-21d1-a9ce-3349c37b71ab.htm">
+        <HelpTOCNode Id="a1a9c0b6-3bb2-4d61-9495-35a3a3c419a4" Title="Dispose (M&#233;todo )" Url="html/542ddf15-f95e-db26-0845-2d403438cd9f.htm">
+          <HelpTOCNode Title="Dispose (M&#233;todo (Boolean))" Url="html/9a0ca94b-e277-23ca-a1fc-08cf1a59a4c2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Navaja_Suiza (Eventos)" Url="html/72832eb4-c2c8-3c98-9c9c-5ac1498d50c2.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d695f6ae-33fc-4266-b2e5-b45a21ffb198" Title="ProyecNavajaSuiza.Factorial" Url="html/2e741098-3555-403d-5bba-834820548fac.htm">
+    <HelpTOCNode Id="2f041f0c-a5d3-4c59-b3f6-3f7afdbf48c5" Title="Factorial (Clase)" Url="html/c92d57bb-f090-3aef-a932-12472899ed49.htm">
+      <HelpTOCNode Title="Factorial (Constructor )" Url="html/e527a81b-33f0-4aef-f610-634f4764a6a1.htm" />
+      <HelpTOCNode Title="Factorial (Propiedades)" Url="html/09140421-5de3-ecdd-0339-00d7b3d6d3ad.htm" />
+      <HelpTOCNode Id="fca69571-15c3-4557-a74e-4ae1005c5a75" Title="Factorial (M&#233;todos)" Url="html/5e996626-c43c-a2ef-a583-6e0ba66a1fd0.htm">
+        <HelpTOCNode Id="ea2fb5b0-5acd-4041-8dd3-d06b6ec1ebc7" Title="Dispose (M&#233;todo )" Url="html/39b85f64-5147-5653-191c-42338564be19.htm">
+          <HelpTOCNode Title="Dispose (M&#233;todo (Boolean))" Url="html/6fc026ed-a2b3-5f3d-80e5-d2d180df9192.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Factorial (Eventos)" Url="html/89bfb257-0165-9960-ce5d-5f8585fc106b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ac875af-a509-47ca-8376-ff33e0330550" Title="FactorialLogica (Clase)" Url="html/6b42299d-6026-24f2-25b7-7c097e141fa1.htm">
+      <HelpTOCNode Id="db6e3592-b3a6-4ae4-82fe-3d1ea409f9d4" Title="FactorialLogica (M&#233;todos)" Url="html/6085d689-763f-922a-9d70-78712fefb537.htm">
+        <HelpTOCNode Title="facto (M&#233;todo )" Url="html/044cac6c-4e96-08e4-29d3-973eaa5c3b23.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="643bf5d3-1191-4bb4-911a-875bf50683b1" Title="ProyecNavajaSuiza.Palindromica" Url="html/cfd30f46-0b7b-780a-0c66-5474b05f334d.htm">
+    <HelpTOCNode Id="1be540b2-c471-46c4-9500-92c2fe64bbee" Title="PalidromicaLogica (Clase)" Url="html/9e6ec270-517c-34a1-cf65-f8f6841a1808.htm">
+      <HelpTOCNode Title="PalidromicaLogica (Constructor )" Url="html/6c64f093-105d-d160-bac8-32f9b5426ab1.htm" />
+      <HelpTOCNode Id="a8e257c4-3947-4995-827f-13d594e7f9bd" Title="PalidromicaLogica (M&#233;todos)" Url="html/9abb5633-89dc-b28c-8a05-9dab2df4064e.htm">
+        <HelpTOCNode Title="palindromo (M&#233;todo )" Url="html/e8d5009f-70de-866a-c805-2b95f0f41de6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1f6b84a-7349-4c89-909a-659faa785a4d" Title="Palindromica (Clase)" Url="html/988ce690-52cd-da6b-5217-281f5f79e464.htm">
+      <HelpTOCNode Title="Palindromica (Constructor )" Url="html/f7d86e70-5e63-ffb8-0307-1b97597d4bcf.htm" />
+      <HelpTOCNode Title="Palindromica (Propiedades)" Url="html/a7cfa6b4-219d-5f17-a74a-c75777bdb753.htm" />
+      <HelpTOCNode Id="3ea957dd-711b-4497-86d8-2233f07cd242" Title="Palindromica (M&#233;todos)" Url="html/c52bbecd-4a7f-2e42-009b-8f0e0193ab32.htm">
+        <HelpTOCNode Id="f9f7c648-889e-42e2-993a-a8e505438c22" Title="Dispose (M&#233;todo )" Url="html/4bbde827-7db0-7907-319e-c7d2c842f365.htm">
+          <HelpTOCNode Title="Dispose (M&#233;todo (Boolean))" Url="html/1055389c-4e2b-909c-0326-e4378097a212.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Palindromica (Eventos)" Url="html/32d0ca44-146d-b7eb-9917-6034848a487c.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="df450eec-98e4-4bf5-ac4f-822509302dcf" Title="ProyecNavajaSuiza.Sumanumeros" Url="html/87b87fc5-5b6c-ea05-5d51-08103505cf5b.htm">
+    <HelpTOCNode Id="9e7b7ae8-996c-40f3-8213-2bbfc47af3dc" Title="Sumanumeros (Clase)" Url="html/9bbae615-03e7-2e7c-31e6-f84acd029f8d.htm">
+      <HelpTOCNode Title="Sumanumeros (Constructor )" Url="html/74803c07-436f-0e7e-2a87-86ee79d54c85.htm" />
+      <HelpTOCNode Title="Sumanumeros (Propiedades)" Url="html/5b3d4b78-a683-0908-51e1-48bea155ac99.htm" />
+      <HelpTOCNode Id="8597733f-5b99-40a5-bdaa-684803f9ada0" Title="Sumanumeros (M&#233;todos)" Url="html/6aca210b-2c60-6088-32b9-44f222eab5cb.htm">
+        <HelpTOCNode Id="5fea0c1d-12d9-4c72-95bb-50c8777fb6f7" Title="Dispose (M&#233;todo )" Url="html/86ecfdbf-7449-f881-dc05-b479f507e27d.htm">
+          <HelpTOCNode Title="Dispose (M&#233;todo (Boolean))" Url="html/2e041834-1882-a891-14b9-da684b3d44b0.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Sumanumeros (Eventos)" Url="html/0a991f41-0f97-8fec-b15b-8e8148b927e0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dee565e2-5577-4375-a3b2-f8bcdc279161" Title="SumanumerosLogica (Clase)" Url="html/4869970a-39d0-6162-6ebb-0b592651117d.htm">
+      <HelpTOCNode Id="ffc923de-d9dc-45f6-bf16-bbce8df424cf" Title="SumanumerosLogica (M&#233;todos)" Url="html/29e0f122-79d7-9c1b-75d8-b946526090c1.htm">
+        <HelpTOCNode Title="lasuma (M&#233;todo )" Url="html/4b94da79-9bf4-d533-e0f6-daaf85f96b65.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="4d07b09b-9030-4289-9970-81b7efbd0e4a" Title="ProyecNavajaSuiza.Temp" Url="html/3c86eb4c-c258-f14b-a8cb-2f56d8a804e6.htm">
+    <HelpTOCNode Id="2c57382c-3456-4ab2-a92c-70642288b5cb" Title="Temp (Clase)" Url="html/520c835d-69ba-b880-564c-089fed03a54d.htm">
+      <HelpTOCNode Title="Temp (Constructor )" Url="html/04f9d70b-f529-a31c-ef62-e461e84a77ac.htm" />
+      <HelpTOCNode Title="Temp (Propiedades)" Url="html/a96b1199-f2f7-aa82-ed06-c958efd0075d.htm" />
+      <HelpTOCNode Id="afe6a048-8eba-48d4-aa5f-679719ef1350" Title="Temp (M&#233;todos)" Url="html/3cc64f6c-bf62-ea8d-7589-6e3a51f50f11.htm">
+        <HelpTOCNode Id="c10a083d-a18d-4ba3-8b85-288054036fdc" Title="Dispose (M&#233;todo )" Url="html/c7c9d19d-9838-d664-c13d-401f3c0963a5.htm">
+          <HelpTOCNode Title="Dispose (M&#233;todo (Boolean))" Url="html/4de74011-de33-e51d-cb41-b39f911f6e2a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="FLeoVector (M&#233;todo )" Url="html/06663d0e-63cf-ecb9-62f8-b5156aecefcd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Temp (Eventos)" Url="html/80e1bbbd-8d5e-8606-d5d6-1dfc144eb4c9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b37b72c3-96a5-4a82-baa0-0ab36e5b0fb8" Title="TempLogica (Clase)" Url="html/e7f3296b-53ea-a61b-a062-77acd88165d6.htm">
+      <HelpTOCNode Title="TempLogica (Constructor )" Url="html/5a53dba6-6ed2-ace8-16a0-72ab89d5fa18.htm" />
+      <HelpTOCNode Id="d748d7a5-c137-4b18-9571-216c8c78873a" Title="TempLogica (M&#233;todos)" Url="html/7b2ad5c8-5583-8550-3a54-b42558cbd403.htm">
+        <HelpTOCNode Title="temperatura (M&#233;todo )" Url="html/310055e2-5d47-09ae-2d57-12c2728260fc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
     /// <summary>
-    /// Aqui tenemos el nombre completo del programa
+    /// Programa en el cual realizaremos la suma de dos numeros enteros,
+    /// 
     /// </summary>
 namespace ProyecNavajaSuiza.Sumanumeros
 {   /// <summary>

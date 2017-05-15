@@ -1,0 +1,48 @@
+
+	Entornos de Desarrollo
+
+	-Proyecto 3 Evaluacion				Eugenio Garcia Fernandez
+
+
+	Repositorio de GITHUB ; https://github.com/garcia11803/Proyec_Navaja_Suiza
+
+	NOMBRES DE CLASES
+		*Para la definicion de los nombres de clase he hecho uso del estilo CaMel, haciendo uso de sustantivos
+		para nombrar las diferentes clases
+		
+
+		
+	NOMBRES DE CAMPO Y VARIABLES
+		* Para nombrar los campos y las variables, hago uso tanto del estilo CaMel 
+		como de sustantivos logicos y reconocibles para facilitar la lectura del codigo asi como
+		la declaracion unida de variables que tienen relacion entre si
+		
+
+	NOMBRES DE METODOS	
+		* Al igual que al nombrar tanto las clases como los campos y variables, 
+		para este caso tambien he utilizado el estilo CaMel. Continando con la tarea de facilitar la lectura del codigio
+		he ordenado las sentencias dejando un espacio entre ellas
+		
+		
+	NOMBRES DE NAMESPACE
+		* En este caso he utilizado el estilo Pascal para la declaracion de los namespace, dandole a todos un mismo namespace 
+		principal, seguido de un punto y a continuacion el nombre especifico de cada uno. 
+
+
+	---  REFACTORIZACION
+	
+	3. REviso los nombres de controles y les doy unos para que la lectura del codigo sea mas amena y clara
+	
+	4. Suprimo los ImputBox y lo modifico por cajas de texto validadas con Try Parse, las limito con Maxlegt y corrijo los
+		espacios vacios con IsNullorEmpty
+	
+	5. Se crean las clases logica con el nombre del subsistema seguido  de la palabra logica
+		en cada uno de los subprogramas, de los cuales las logicas de Sumanumeros y Factorial 
+		son estaticas y de las otras dos hay que instanciarlas para poder usar los metados en la logica.
+		
+	
+		
+	
+	
+	
+	

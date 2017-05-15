@@ -67,6 +67,8 @@ namespace ProyecNavajaSuiza
 
 
         }
+
+
             /// <summary>
             /// Realizamos test de suma de dos numeros positivos  con resultado 
             /// </summary>
@@ -82,6 +84,9 @@ namespace ProyecNavajaSuiza
             //afirmacion
             Assert.AreEqual(7, resul);
         }
+
+
+
         /// <summary>
         /// Realizamos la suma de dos numeros negativos y prueba OK
         /// </summary>
@@ -97,9 +102,12 @@ namespace ProyecNavajaSuiza
             //afirmacion
             Assert.AreEqual(-7, resul);
         }
+
+
         /// <summary>
         /// Realizamos la suma de un numero negativo y otro positivo.OK
         /// </summary>
+        /// No realizamos prueba con caracteres no numero ya que se ha limitado en la entrada de datos.
         [TestMethod]
         public void TestSumaNumeros3()
         {
@@ -112,7 +120,81 @@ namespace ProyecNavajaSuiza
             //afirmacion
             Assert.AreEqual(3, resul);
         }
-        //No realizamos prueba con caracteres no numero ya que se ha limitado en la entrada de datos.
+         
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [TestMethod]
+        public void TestFactorial1()
+        {
+            //escenario
+
+            //accion
+
+            //afirmacion
+
+
+
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [TestMethod]
+        public void TestTemperatura2()
+        {
+            //escenario
+
+            //accion
+
+            //afirmacion
+
+
+
+
+        }
+
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [TestMethod]
+        public void TestTemperatur3()
+        {
+            //escenario
+
+            //accion
+
+            //afirmacion
+
+
+
+
+        }
+
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [TestMethod]
+        public void TestTemperatura4()
+        {
+            //escenario
+
+            //accion
+
+            //afirmacion
+
+
+
+
+        }
+
+
 
 
 

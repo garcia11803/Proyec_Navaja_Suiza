@@ -11,3 +11,4 @@ C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Proper
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.csproj.GenerateResource.Cache
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.exe
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.pdb
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.csprojResolveAssemblyReference.cache

@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Este es un programa el cual introduciremos las temperaturas de un dia por horas 
+/// y nos dara la media , minima y maxima temperatura de ese dia
+/// </summary>
 namespace ProyecNavajaSuiza.Temp
 {/// <summary>
 /// Clas e creada para la realizacion del programa de temeratura
