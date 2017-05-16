@@ -123,35 +123,37 @@ namespace ProyecNavajaSuiza
          
 
         /// <summary>
-        /// 
+        /// Realizamos el factorial de un numero positivo con resultado bueno.
         /// </summary>
         [TestMethod]
         public void TestFactorial1()
         {
             //escenario
+            int num = 4;
 
             //accion
+            string resulfactorial = Factorial.FactorialLogica.facto(num);
 
             //afirmacion
 
+            Assert.AreEqual("El factorial del numero introducido es: 24", resulfactorial);
 
 
 
         }
 
         /// <summary>
-        /// 
+        /// Realizamos el factorial de un numero positivo con resultado erroneo
         /// </summary>
         [TestMethod]
-        public void TestTemperatura2()
+        public void TestFactorial2()
         {
             //escenario
-
+            int num = 4;
             //accion
-
+            string resulfactorial = Factorial.FactorialLogica.facto(num);
             //afirmacion
-
-
+            Assert.AreEqual("El factorial del numero introducido es: 50", resulfactorial);
 
 
         }

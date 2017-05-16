@@ -31,18 +31,18 @@ namespace ProyecNavajaSuiza.Factorial
         /// Realizamos la entrada de datos con tryParse para evitar datos erroneos
         private void bCalcula_Click(object sender, EventArgs e)
         {
-            int otro;
+            int numero;
             
             bool aotro = true;
-            aotro = int.TryParse(tNumero.Text, out otro);
+            aotro = int.TryParse(tNumero.Text, out numero);
 
-            if (aotro == false)
+            if (aotro == false || numero < 0 )
             {
-                MessageBox.Show("Dato erroeno, debes ingresar un numero");
+                MessageBox.Show("Dato erroeno, caracter no numero o con signo negativo");
             }
             else
             {
-                string numFac = FactorialLogica.facto(otro);
+                string numFac = FactorialLogica.facto(numero);
 
                 MessageBox.Show(numFac);
             }

@@ -28,9 +28,14 @@ namespace ProyecNavajaSuiza.Factorial
             {
                 aux = aux * i;
             }
-
-            text = text + aux;
-
+            if (aux >= Int32.MaxValue || aux < 0)
+            {
+                text = "Resultado fuera de rango,borre vuelva a intentarlo";
+            }
+            else
+            {
+                text = text + aux;
+            }
 
             return text;
         }
