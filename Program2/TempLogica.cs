@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// Parte de la logica de la paplicacion de temperatura
+/// </summary>
 namespace ProyecNavajaSuiza.Temp
-{
+{/// <summary>
+/// Clase logica en la cual realizaremos el calculo de media, 
+/// saber la maxima y minima temperatura
+/// </summary>
     public class TempLogica
-    {
-        const int Khoras = 4;
+    {/// <summary>
+    /// Constante que usaremos para saber las horas que introducimos
+    /// </summary>
+        const int Khoras = 24;
         
         
         
@@ -26,7 +33,7 @@ namespace ProyecNavajaSuiza.Temp
             maxi = vector[0];
             mini = maxi;
             media = 0;
-
+            
             for (int i = 0; i < vector.Length; i++)
             {
                 if (vector[i] > maxi)

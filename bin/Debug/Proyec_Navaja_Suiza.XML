@@ -118,7 +118,7 @@
         </member>
         <member name="T:ProyecNavajaSuiza.Sumanumeros.SumanumerosLogica">
             <summary>
-            Clase estatica sumanumeros logica
+            Clase estatica sumanumeros logica en la cual realizaremos la suma de dos numeros
             </summary>
         </member>
         <member name="M:ProyecNavajaSuiza.Sumanumeros.SumanumerosLogica.lasuma(System.Int32,System.Int32,System.Int32@)">
@@ -192,6 +192,17 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="T:ProyecNavajaSuiza.Temp.TempLogica">
+            <summary>
+            Clase logica en la cual realizaremos el calculo de media, 
+            saber la maxima y minima temperatura
+            </summary>
+        </member>
+        <member name="F:ProyecNavajaSuiza.Temp.TempLogica.Khoras">
+            <summary>
+            Constante que usaremos para saber las horas que introducimos
+            </summary>
+        </member>
         <member name="M:ProyecNavajaSuiza.Temp.TempLogica.temperatura(System.Int32[],System.Int32@,System.Int32@,System.Int32@)">
             <summary>
             Vamos a saber la temperatura media de los introducidos
@@ -201,6 +212,18 @@
             <param name="maxi">Aqui introducimos la temperatura maxima</param>
             <param name="mini">Aqui recogemos la temperatura minima</param>
             <param name="media">Aqui recogemos la temperatura media </param>
+        </member>
+        <member name="T:ProyecNavajaSuiza.Palindromica.PalidromicaLogica">
+            <summary>
+            Clase creada logica para el uso del metodo palindromo
+            </summary>
+        </member>
+        <member name="M:ProyecNavajaSuiza.Palindromica.PalidromicaLogica.palindromo(System.String)">
+            <summary>
+            Booleano para comprovar si la palabra que introducimos es palindromica
+            </summary>
+            <param name="frase">Palabra que vamos a revisar si es palindromica</param>
+            <returns>Valor booleano de dicho metodo</returns>
         </member>
         <member name="T:ProyecNavajaSuiza.Palindromica.Palindromica">
             <summary>

@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
-
+/// <summary>
+/// Parte logica de la aplicacion sumanumeros
+/// </summary>
 namespace ProyecNavajaSuiza.Sumanumeros
 {/// <summary>
-/// Clase estatica sumanumeros logica
+/// Clase estatica sumanumeros logica en la cual realizaremos la suma de dos numeros
 /// </summary>
     public static class SumanumerosLogica
     {

@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Metodo principal donde tenemos el resto de aplicaciones
+/// </summary>
 namespace ProyecNavajaSuiza
 {/// <summary>
 ///     Clase base,del proyecto
