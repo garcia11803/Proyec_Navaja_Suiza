@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-    /// <summary>
-    /// Programa en el cual realizaremos la suma de dos numeros enteros,
-    /// 
-    /// </summary>
+/// <summary>Programa sumanuemros
+///<remarks> Programa en el cual realizaremos la suma de dos numeros enteros,
+/// </remarks>
+/// </summary>
 namespace ProyecNavajaSuiza.Sumanumeros
 {   /// <summary>
     /// Clase sumanumeros
@@ -56,6 +56,7 @@ namespace ProyecNavajaSuiza.Sumanumeros
         }
         /// <summary>
         /// Vamos a limitar la cifra por la que vamos a sumar
+        /// <remarks>Con ello conseguimos un a limitacion en la enttrada de datos</remarks>
         /// </summary>
         /// <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
         /// <param name="e">nn</param>
@@ -65,6 +66,7 @@ namespace ProyecNavajaSuiza.Sumanumeros
         }
         /// <summary>
         /// Vamos a limitar la cifra por la que vamos a sumar
+        /// <remarks>Con ello conseguimos un a limitacion en la enttrada de datos</remarks>
         /// </summary>
         /// <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
         /// <param name="e">nn</param>

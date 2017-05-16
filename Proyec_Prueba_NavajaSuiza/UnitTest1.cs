@@ -9,7 +9,7 @@ namespace ProyecNavajaSuiza
 
         /// <summary>
         /// Test para comprovar que la palabra es palindromica
-        /// No debe dar resultado positivo ya que la palabra si es palindromica
+        /// <remarks>No debe dar resultado positivo ya que la palabra si es palindromica</remarks>
         /// </summary>
         [TestMethod]
         public void TestPalindromo1()
@@ -39,7 +39,7 @@ namespace ProyecNavajaSuiza
 
         /// <summary>
         /// Test para comprovar que la palabra no es palindromica
-        /// Aqui podemos comprovar que la palabra introducida no lo es.
+        /// <remarks> Aqui podemos comprovar que la palabra introducida no lo es.</remarks>
         /// </summary>
 
         [TestMethod]
@@ -47,7 +47,7 @@ namespace ProyecNavajaSuiza
         {
 
             //escenario
-            string Texto = "Pedro";
+            string Texto = "pedro";
 
             bool ResultadoEsperado = false;
 
@@ -69,9 +69,10 @@ namespace ProyecNavajaSuiza
         }
 
 
-            /// <summary>
-            /// Realizamos test de suma de dos numeros positivos  con resultado 
-            /// </summary>
+        /// <summary>
+        /// Test de suma de dos numeros positivos
+        /// <remarks> Tiene que darnos un numero positivo en la suma de los dos</remarks>
+        /// </summary>
         [TestMethod]
         public void TestSumaNumeros1()
         {
@@ -79,16 +80,17 @@ namespace ProyecNavajaSuiza
             int num3;
 
             //accion
-            int resul = Sumanumeros.SumanumerosLogica.lasuma(2,5,out num3);
+            int resul = Sumanumeros.SumanumerosLogica.lasuma(33,22,out num3);
 
             //afirmacion
-            Assert.AreEqual(7, resul);
+            Assert.AreEqual(55, resul);
         }
 
 
 
         /// <summary>
-        /// Realizamos la suma de dos numeros negativos y prueba OK
+        /// Test que suma de dos numeros negativos 
+        /// <remarks> Resultado de un numero negativo  con la suma de los dos numero</remarks>
         /// </summary>
         [TestMethod]
         public void TestSumaNumeros2()
@@ -105,9 +107,11 @@ namespace ProyecNavajaSuiza
 
 
         /// <summary>
-        /// Realizamos la suma de un numero negativo y otro positivo.OK
+        ///Test que suma de un numero negativo y otro positivo.
+        ///<remarks>Nos dara un nermo con el sigo del mayor  valor 
+        /// No realizamos prueba con caracteres no numero ya que se
+        /// ha limitado en la entrada de datos.</remarks>
         /// </summary>
-        /// No realizamos prueba con caracteres no numero ya que se ha limitado en la entrada de datos.
         [TestMethod]
         public void TestSumaNumeros3()
         {
@@ -120,10 +124,13 @@ namespace ProyecNavajaSuiza
             //afirmacion
             Assert.AreEqual(3, resul);
         }
-         
+
 
         /// <summary>
-        /// Realizamos el factorial de un numero positivo con resultado bueno.
+        /// Test de numero factorial,
+        /// <remarks>El programa no admite ni letras, ni numeros negativos
+        ///  y esta limitado el resultado si se pasa del maximo intero
+        /// Realizamos el factorial de un numero positivo con resultado bueno.</remarks>
         /// </summary>
         [TestMethod]
         public void TestFactorial1()
@@ -143,7 +150,8 @@ namespace ProyecNavajaSuiza
         }
 
         /// <summary>
-        /// Realizamos el factorial de un numero positivo con resultado erroneo
+        /// Tst del factorial de un numero positivo con resultado erroneo
+        /// <remarks> Forzamos a comprovar si el resultado del factorial no es el esperado</remarks>
         /// </summary>
         [TestMethod]
         public void TestFactorial2()
@@ -164,7 +172,7 @@ namespace ProyecNavajaSuiza
         /// 
         /// </summary>
         [TestMethod]
-        public void TestTemperatur3()
+        public void TestTemperatur1()
         {
             //escenario
 
@@ -183,7 +191,7 @@ namespace ProyecNavajaSuiza
         /// 
         /// </summary>
         [TestMethod]
-        public void TestTemperatura4()
+        public void TestTemperatura2()
         {
             //escenario
 

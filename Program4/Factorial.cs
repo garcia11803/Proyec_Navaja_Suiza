@@ -53,6 +53,7 @@ namespace ProyecNavajaSuiza.Factorial
         /// <summary>
         /// Limitamos el numero de datos que vamos a introducir en el texbox
         /// </summary>
+        
         /// <param name="sender">Se ha limitado a 4 y no se puede introducir mas</param>
         /// <param name="e">bb</param>
         private void tNumero_TextChanged(object sender, EventArgs e)

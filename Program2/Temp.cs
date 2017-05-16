@@ -7,9 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-/// <summary>
-/// Este es un programa el cual introduciremos las temperaturas de un dia por horas 
+/// <summary>Programa de Temperatura
+/// <remarks>Este es un programa el cual introduciremos las temperaturas de un dia por horas 
 /// y nos dara la media , minima y maxima temperatura de ese dia
+/// </remarks>
 /// </summary>
 namespace ProyecNavajaSuiza.Temp
 {/// <summary>
@@ -22,7 +23,11 @@ namespace ProyecNavajaSuiza.Temp
 
         int posicion = 0;
 
-
+        /// <summary>Desactivacion de botones
+        /// <remarks>Con este metodo conseguimos la 
+        /// inabiliacion de algunos boton sino se cumplen unas directrices
+        /// </remarks>
+        /// </summary>
         void desactivaboton()
         {
             if (posicion >= Khoras -1)
@@ -46,18 +51,20 @@ namespace ProyecNavajaSuiza.Temp
                 bleeTemp.Enabled = false;
             }
         }
-        
 
-        /// <summary>
+
+        /// <summary>Khoras es el limite de pasos que podemos introducir
+        /// <remarks>
         /// Aqui creamos vector para la recogida de datos y posterior utilizacion
+        /// </remarks>
         /// </summary>
-        const int Khoras = 4;
+        const int Khoras = 24;
 
         int[] vector = new int[Khoras];
         /// <summary>
-        /// 
+        /// Lee mos las direrentes temperaturas y la metemos en el vector
         /// </summary>
-        /// <param name="vector"></param>
+        /// <param name="vector">Aqui vamos a almacenar todos los datos introduciod en modo temperatu/hora</param>
         public void FLeoVector(int[] vector)
         {
             bool bNumeroCorrecto;
