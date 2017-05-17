@@ -62,7 +62,7 @@ namespace ProyecNavajaSuiza.Sumanumeros
         /// <param name="e">nn</param>
         private void tNumero1_TextChanged(object sender, EventArgs e)
         {
-            tNumero1.MaxLength = 10;
+            tNumero1.MaxLength = 9;
         }
         /// <summary>
         /// Vamos a limitar la cifra por la que vamos a sumar
@@ -72,7 +72,7 @@ namespace ProyecNavajaSuiza.Sumanumeros
         /// <param name="e">nn</param>
         private void tNumero2_TextChanged(object sender, EventArgs e)
         {
-            tNumero2.MaxLength = 10;
+            tNumero2.MaxLength = 9;
         }
     }
 }

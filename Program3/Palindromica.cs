@@ -80,6 +80,7 @@ namespace ProyecNavajaSuiza.Palindromica
         private void tPalabra_TextChanged(object sender, EventArgs e)
         {
             tPalabra.MaxLength = 20;
+
         }
     }
 }

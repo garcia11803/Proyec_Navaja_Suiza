@@ -150,7 +150,7 @@ namespace ProyecNavajaSuiza
         }
 
         /// <summary>
-        /// Tst del factorial de un numero positivo con resultado erroneo
+        /// Test del factorial de un numero positivo con resultado erroneo
         /// <remarks> Forzamos a comprovar si el resultado del factorial no es el esperado</remarks>
         /// </summary>
         [TestMethod]
