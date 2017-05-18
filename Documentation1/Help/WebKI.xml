@@ -1,41 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
   <HelpKINode Title="Dispose method">
-    <HelpKINode Title="Factorial.Dispose (M&#233;todo )" Url="html/39b85f64-5147-5653-191c-42338564be19.htm" />
-    <HelpKINode Title="Navaja_Suiza.Dispose (M&#233;todo )" Url="html/542ddf15-f95e-db26-0845-2d403438cd9f.htm" />
+    <HelpKINode Title="Facto.Dispose (M&#233;todo )" Url="html/edd48d96-344b-d8d6-853d-e2bfed7e22ff.htm" />
+    <HelpKINode Title="NavajaSuiza.Dispose (M&#233;todo )" Url="html/0385c2ef-bde0-f2da-1f9d-a22dbe9a930a.htm" />
     <HelpKINode Title="Palindromica.Dispose (M&#233;todo )" Url="html/4bbde827-7db0-7907-319e-c7d2c842f365.htm" />
     <HelpKINode Title="Sumanumeros.Dispose (M&#233;todo )" Url="html/86ecfdbf-7449-f881-dc05-b479f507e27d.htm" />
     <HelpKINode Title="Temp.Dispose (M&#233;todo )" Url="html/c7c9d19d-9838-d664-c13d-401f3c0963a5.htm" />
   </HelpKINode>
-  <HelpKINode Title="facto method" Url="html/044cac6c-4e96-08e4-29d3-973eaa5c3b23.htm" />
-  <HelpKINode Title="Factorial class">
-    <HelpKINode Title="Factorial (Clase)" Url="html/c92d57bb-f090-3aef-a932-12472899ed49.htm" />
-    <HelpKINode Title="about Factorial class" Url="html/c92d57bb-f090-3aef-a932-12472899ed49.htm" />
-    <HelpKINode Title="constructor" Url="html/e527a81b-33f0-4aef-f610-634f4764a6a1.htm" />
-    <HelpKINode Title="events" Url="html/89bfb257-0165-9960-ce5d-5f8585fc106b.htm" />
-    <HelpKINode Title="methods" Url="html/5e996626-c43c-a2ef-a583-6e0ba66a1fd0.htm" />
-    <HelpKINode Title="properties" Url="html/09140421-5de3-ecdd-0339-00d7b3d6d3ad.htm" />
+  <HelpKINode Title="Facto class">
+    <HelpKINode Title="Facto (Clase)" Url="html/2dab3f37-6322-1c63-84e2-97f588f8b973.htm" />
+    <HelpKINode Title="about Facto class" Url="html/2dab3f37-6322-1c63-84e2-97f588f8b973.htm" />
+    <HelpKINode Title="constructor" Url="html/21a76d3d-2fa4-f0bc-b2d0-ff8445e66174.htm" />
+    <HelpKINode Title="events" Url="html/0eaa4964-c69e-f0fe-2866-41c35edcb350.htm" />
+    <HelpKINode Title="methods" Url="html/3478e3bb-b129-c788-b7d9-0abdc81f85ef.htm" />
+    <HelpKINode Title="properties" Url="html/d7890e0a-2b9f-3dce-868e-554799a289da.htm" />
   </HelpKINode>
-  <HelpKINode Title="Factorial.Dispose method" Url="html/39b85f64-5147-5653-191c-42338564be19.htm" />
-  <HelpKINode Title="Factorial.Factorial constructor" Url="html/e527a81b-33f0-4aef-f610-634f4764a6a1.htm" />
+  <HelpKINode Title="Facto method" Url="html/695b146f-7573-066f-3202-3da728110556.htm" />
+  <HelpKINode Title="Facto.Dispose method" Url="html/edd48d96-344b-d8d6-853d-e2bfed7e22ff.htm" />
+  <HelpKINode Title="Facto.Facto constructor" Url="html/21a76d3d-2fa4-f0bc-b2d0-ff8445e66174.htm" />
   <HelpKINode Title="FactorialLogica class">
     <HelpKINode Title="FactorialLogica (Clase)" Url="html/6b42299d-6026-24f2-25b7-7c097e141fa1.htm" />
     <HelpKINode Title="about FactorialLogica class" Url="html/6b42299d-6026-24f2-25b7-7c097e141fa1.htm" />
     <HelpKINode Title="methods" Url="html/6085d689-763f-922a-9d70-78712fefb537.htm" />
   </HelpKINode>
-  <HelpKINode Title="FactorialLogica.facto method" Url="html/044cac6c-4e96-08e4-29d3-973eaa5c3b23.htm" />
+  <HelpKINode Title="FactorialLogica.Facto method" Url="html/695b146f-7573-066f-3202-3da728110556.htm" />
   <HelpKINode Title="FLeoVector method" Url="html/06663d0e-63cf-ecb9-62f8-b5156aecefcd.htm" />
   <HelpKINode Title="lasuma method" Url="html/4b94da79-9bf4-d533-e0f6-daaf85f96b65.htm" />
-  <HelpKINode Title="Navaja_Suiza class">
-    <HelpKINode Title="Navaja_Suiza (Clase)" Url="html/a2e8d6d1-42b0-dc6b-5d10-be75bac638e5.htm" />
-    <HelpKINode Title="about Navaja_Suiza class" Url="html/a2e8d6d1-42b0-dc6b-5d10-be75bac638e5.htm" />
-    <HelpKINode Title="constructor" Url="html/3249bdfa-90df-9359-aa45-b47653598d42.htm" />
-    <HelpKINode Title="events" Url="html/72832eb4-c2c8-3c98-9c9c-5ac1498d50c2.htm" />
-    <HelpKINode Title="methods" Url="html/24e85de8-12f7-21d1-a9ce-3349c37b71ab.htm" />
-    <HelpKINode Title="properties" Url="html/3b3fb734-dcc4-79c8-c024-b81fd9753499.htm" />
+  <HelpKINode Title="maxima method" Url="html/68f73047-e414-2b7b-aa03-c1ccc890eac5.htm" />
+  <HelpKINode Title="NavajaSuiza class">
+    <HelpKINode Title="NavajaSuiza (Clase)" Url="html/c84e5f4e-f970-a73f-1dc5-17dcee02ccb0.htm" />
+    <HelpKINode Title="about NavajaSuiza class" Url="html/c84e5f4e-f970-a73f-1dc5-17dcee02ccb0.htm" />
+    <HelpKINode Title="constructor" Url="html/ade51090-e76c-b4fc-cd8e-350645d91c3e.htm" />
+    <HelpKINode Title="events" Url="html/80be439c-b6f7-1074-8e6a-2a6989966804.htm" />
+    <HelpKINode Title="methods" Url="html/5fd382ed-58b9-1cbd-e68d-d41f2968b874.htm" />
+    <HelpKINode Title="properties" Url="html/55918a49-eaa3-ed34-b5bd-384090d7d2d1.htm" />
   </HelpKINode>
-  <HelpKINode Title="Navaja_Suiza.Dispose method" Url="html/542ddf15-f95e-db26-0845-2d403438cd9f.htm" />
-  <HelpKINode Title="Navaja_Suiza.Navaja_Suiza constructor" Url="html/3249bdfa-90df-9359-aa45-b47653598d42.htm" />
+  <HelpKINode Title="NavajaSuiza.Dispose method" Url="html/0385c2ef-bde0-f2da-1f9d-a22dbe9a930a.htm" />
+  <HelpKINode Title="NavajaSuiza.NavajaSuiza constructor" Url="html/ade51090-e76c-b4fc-cd8e-350645d91c3e.htm" />
   <HelpKINode Title="PalidromicaLogica class">
     <HelpKINode Title="PalidromicaLogica (Clase)" Url="html/9e6ec270-517c-34a1-cf65-f8f6841a1808.htm" />
     <HelpKINode Title="about PalidromicaLogica class" Url="html/9e6ec270-517c-34a1-cf65-f8f6841a1808.htm" />
@@ -57,9 +58,9 @@
   <HelpKINode Title="palindromo method" Url="html/e8d5009f-70de-866a-c805-2b95f0f41de6.htm" />
   <HelpKINode Title="ProyecNavajaSuiza namespace" Url="html/30ecf322-bfc7-e268-533c-5a9f3132a7df.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Factorial namespace" Url="html/2e741098-3555-403d-5bba-834820548fac.htm" />
-  <HelpKINode Title="ProyecNavajaSuiza.Factorial.Factorial class" Url="html/c92d57bb-f090-3aef-a932-12472899ed49.htm" />
+  <HelpKINode Title="ProyecNavajaSuiza.Factorial.Facto class" Url="html/2dab3f37-6322-1c63-84e2-97f588f8b973.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Factorial.FactorialLogica class" Url="html/6b42299d-6026-24f2-25b7-7c097e141fa1.htm" />
-  <HelpKINode Title="ProyecNavajaSuiza.Navaja_Suiza class" Url="html/a2e8d6d1-42b0-dc6b-5d10-be75bac638e5.htm" />
+  <HelpKINode Title="ProyecNavajaSuiza.NavajaSuiza class" Url="html/c84e5f4e-f970-a73f-1dc5-17dcee02ccb0.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Palindromica namespace" Url="html/cfd30f46-0b7b-780a-0c66-5474b05f334d.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Palindromica.PalidromicaLogica class" Url="html/9e6ec270-517c-34a1-cf65-f8f6841a1808.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Palindromica.Palindromica class" Url="html/988ce690-52cd-da6b-5217-281f5f79e464.htm" />
@@ -69,8 +70,7 @@
   <HelpKINode Title="ProyecNavajaSuiza.Temp namespace" Url="html/3c86eb4c-c258-f14b-a8cb-2f56d8a804e6.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Temp.Temp class" Url="html/520c835d-69ba-b880-564c-089fed03a54d.htm" />
   <HelpKINode Title="ProyecNavajaSuiza.Temp.TempLogica class" Url="html/e7f3296b-53ea-a61b-a062-77acd88165d6.htm" />
-  <HelpKINode Title="Proyec_Navaja_Suiza namespace" Url="html/bfcec493-6ea6-3af5-dabe-7da1dabf3329.htm" />
-  <HelpKINode Title="Proyec_Navaja_Suiza.UnitTest1 class" Url="html/9445280e-6c7d-409a-97e5-fdbd00b4eb65.htm" />
+  <HelpKINode Title="ProyecNavajaSuiza.UnitTest1 class" Url="html/d2d7f8c3-962f-014b-30a3-8ffa89661556.htm" />
   <HelpKINode Title="Sumanumeros class">
     <HelpKINode Title="Sumanumeros (Clase)" Url="html/9bbae615-03e7-2e7c-31e6-f84acd029f8d.htm" />
     <HelpKINode Title="about Sumanumeros class" Url="html/9bbae615-03e7-2e7c-31e6-f84acd029f8d.htm" />
@@ -105,25 +105,32 @@
     <HelpKINode Title="constructor" Url="html/5a53dba6-6ed2-ace8-16a0-72ab89d5fa18.htm" />
     <HelpKINode Title="methods" Url="html/7b2ad5c8-5583-8550-3a54-b42558cbd403.htm" />
   </HelpKINode>
+  <HelpKINode Title="TempLogica.maxima method" Url="html/68f73047-e414-2b7b-aa03-c1ccc890eac5.htm" />
   <HelpKINode Title="TempLogica.temperatura method" Url="html/310055e2-5d47-09ae-2d57-12c2728260fc.htm" />
   <HelpKINode Title="TempLogica.TempLogica constructor" Url="html/5a53dba6-6ed2-ace8-16a0-72ab89d5fa18.htm" />
-  <HelpKINode Title="TestPalindromo1 method" Url="html/df27e696-b3bd-770e-4fba-c80b021dfaaa.htm" />
-  <HelpKINode Title="TestPalindromo2 method" Url="html/cf35b164-1774-beab-f2e3-6117baf53df3.htm" />
-  <HelpKINode Title="TestSumaNumeros1 method" Url="html/511c55ee-6425-44ab-8eb6-6a5cce6c8301.htm" />
-  <HelpKINode Title="TestSumaNumeros2 method" Url="html/932d0085-8e2a-bdce-58e5-fbbf1012faae.htm" />
-  <HelpKINode Title="TestSumaNumeros3 method" Url="html/82ff84a3-3080-6b80-51e4-cf9fdc422066.htm" />
+  <HelpKINode Title="TestFactorial1 method" Url="html/c4258190-ef93-2408-8f72-e5de4b5ef6b0.htm" />
+  <HelpKINode Title="TestFactorial2 method" Url="html/607c6ee8-d5d7-7a2c-012d-d04706c4cbfd.htm" />
+  <HelpKINode Title="TestPalindromo1 method" Url="html/a307ad51-2b7c-70f2-b89a-635fc8b04bb2.htm" />
+  <HelpKINode Title="TestPalindromo2 method" Url="html/dd959a86-873c-d387-8438-2f0a99e42a7e.htm" />
+  <HelpKINode Title="TestSumaNumeros1 method" Url="html/741a37f3-44b0-d90d-e717-d919972227d5.htm" />
+  <HelpKINode Title="TestSumaNumeros2 method" Url="html/166ebe14-a13f-5f2f-2a2f-e1eea3485744.htm" />
+  <HelpKINode Title="TestSumaNumeros3 method" Url="html/4cacba5e-95de-f4d5-e684-084cf02c6c93.htm" />
+  <HelpKINode Title="TestTemperatur1 method" Url="html/607f603c-939a-c92c-1f09-e96ec749c92e.htm" />
   <HelpKINode Title="UnitTest1 class">
-    <HelpKINode Title="UnitTest1 (Clase)" Url="html/9445280e-6c7d-409a-97e5-fdbd00b4eb65.htm" />
-    <HelpKINode Title="about UnitTest1 class" Url="html/9445280e-6c7d-409a-97e5-fdbd00b4eb65.htm" />
-    <HelpKINode Title="constructor" Url="html/1860f842-d23a-d01e-9b8a-1a60092dfa1d.htm" />
-    <HelpKINode Title="methods" Url="html/9339e14c-9c44-a9a6-88cb-8e49319bce34.htm" />
+    <HelpKINode Title="UnitTest1 (Clase)" Url="html/d2d7f8c3-962f-014b-30a3-8ffa89661556.htm" />
+    <HelpKINode Title="about UnitTest1 class" Url="html/d2d7f8c3-962f-014b-30a3-8ffa89661556.htm" />
+    <HelpKINode Title="constructor" Url="html/28079b8b-c77c-c007-8ceb-bf0cfecf1dd4.htm" />
+    <HelpKINode Title="methods" Url="html/73f0a96a-6f6c-4bfb-dcac-d463f62b8d4f.htm" />
   </HelpKINode>
-  <HelpKINode Title="UnitTest1.TestPalindromo1 method" Url="html/df27e696-b3bd-770e-4fba-c80b021dfaaa.htm" />
-  <HelpKINode Title="UnitTest1.TestPalindromo2 method" Url="html/cf35b164-1774-beab-f2e3-6117baf53df3.htm" />
-  <HelpKINode Title="UnitTest1.TestSumaNumeros1 method" Url="html/511c55ee-6425-44ab-8eb6-6a5cce6c8301.htm" />
-  <HelpKINode Title="UnitTest1.TestSumaNumeros2 method" Url="html/932d0085-8e2a-bdce-58e5-fbbf1012faae.htm" />
-  <HelpKINode Title="UnitTest1.TestSumaNumeros3 method" Url="html/82ff84a3-3080-6b80-51e4-cf9fdc422066.htm" />
-  <HelpKINode Title="UnitTest1.UnitTest1 constructor" Url="html/1860f842-d23a-d01e-9b8a-1a60092dfa1d.htm" />
+  <HelpKINode Title="UnitTest1.TestFactorial1 method" Url="html/c4258190-ef93-2408-8f72-e5de4b5ef6b0.htm" />
+  <HelpKINode Title="UnitTest1.TestFactorial2 method" Url="html/607c6ee8-d5d7-7a2c-012d-d04706c4cbfd.htm" />
+  <HelpKINode Title="UnitTest1.TestPalindromo1 method" Url="html/a307ad51-2b7c-70f2-b89a-635fc8b04bb2.htm" />
+  <HelpKINode Title="UnitTest1.TestPalindromo2 method" Url="html/dd959a86-873c-d387-8438-2f0a99e42a7e.htm" />
+  <HelpKINode Title="UnitTest1.TestSumaNumeros1 method" Url="html/741a37f3-44b0-d90d-e717-d919972227d5.htm" />
+  <HelpKINode Title="UnitTest1.TestSumaNumeros2 method" Url="html/166ebe14-a13f-5f2f-2a2f-e1eea3485744.htm" />
+  <HelpKINode Title="UnitTest1.TestSumaNumeros3 method" Url="html/4cacba5e-95de-f4d5-e684-084cf02c6c93.htm" />
+  <HelpKINode Title="UnitTest1.TestTemperatur1 method" Url="html/607f603c-939a-c92c-1f09-e96ec749c92e.htm" />
+  <HelpKINode Title="UnitTest1.UnitTest1 constructor" Url="html/28079b8b-c77c-c007-8ceb-bf0cfecf1dd4.htm" />
   <HelpKINode Title="version">
     <HelpKINode Title="1.0.0.0" Url="html/8a9990f6-8ac3-4afc-9a09-7786ce73149e.htm" />
     <HelpKINode Title="history" Url="html/045d2659-d205-4957-81e3-8d1f91515518.htm" />
