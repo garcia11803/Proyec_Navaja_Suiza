@@ -54,5 +54,20 @@ namespace ProyecNavajaSuiza.Temp
 
         }
 
+
+        public int maxima(int[]vector)
+        {
+            int max =0;
+
+            for (int i = 0; i < vector.Length; i++)
+            {
+                if (vector[i] > max)
+                {
+                    max = i;
+                }
+                
+            }
+            return max;
+        }
     }
 }

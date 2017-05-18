@@ -169,43 +169,46 @@ namespace ProyecNavajaSuiza
 
 
         /// <summary>
-        /// Test de Temperatura, tengo limitado la entrada de datos a numeros
-        /// de dos cifras, sino el programa saca un aviso para que no se pueda meter otro dato.
+        /// Test de Temperatura, 
+        /// <remarks></remarks>tengo limitado la entrada de datos a numeros
+        /// de dos cifras, sino el programa saca un aviso para que no se pueda meter otro dato.</remarks>
         /// </summary>
         [TestMethod]
         public void TestTemperatur1()
         {
             //escenario
-            int max, min, media;
-
+            int max = 48;
+            const int Khoras = 24;
+            int posicion = 1;
+            int[] vector = new int[Khoras];
+            int numero = 1;
 
             //accion
+            if (posicion < vector.Length)
+            {
+                vector[posicion] = numero;
+                numero = numero * 2;
+                posicion++;
+
+            }
+
+            for (int i = 0; i < vector.Length; i++)
+            {
+                if (vector[i] > max)
+                {
+                    max = vector[i];
+                }
+            }
 
             //afirmacion
 
-
-
-
+            Assert.AreEqual(48, max);
         }
 
-
-
-        /// <summary>
-        /// 
-        /// </summary>
-        [TestMethod]
-        public void TestTemperatura2()
-        {
-            //escenario
-
-            //accion
-
-            //afirmacion
+            
 
 
 
-
-        }
 
 
 
