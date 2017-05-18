@@ -4,24 +4,24 @@
         <name>Proyec_Navaja_Suiza</name>
     </assembly>
     <members>
-        <member name="T:ProyecNavajaSuiza.Navaja_Suiza">
+        <member name="T:ProyecNavajaSuiza.NavajaSuiza">
             <summary>
                 Clase base,del proyecto
             </summary>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.#ctor">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.#ctor">
             <summary>
                 Instanciador de la clase principal, parte fundamental del programa
             </summary>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.bSumanumeros_Click(System.Object,System.EventArgs)">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.bSumanumeros_Click(System.Object,System.EventArgs)">
             <summary>
             En este boton realizamos la llamada al programa sumanumeros
             </summary>
             <param name="sender">Lanza el evento de sumanumeros</param>
             <param name="e">Sin uso</param>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.bTemperatura_Click(System.Object,System.EventArgs)">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.bTemperatura_Click(System.Object,System.EventArgs)">
              <summary>
              Aqui realizamos la activacion del prorama para calcular la tem, 
             max min y media in introducido
@@ -29,32 +29,32 @@
              <param name="sender">Lanza el evento de temperatura</param>
              <param name="e">Sin uso</param>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.bPalindromo_Click(System.Object,System.EventArgs)">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.bPalindromo_Click(System.Object,System.EventArgs)">
             <summary>
             Ahora vamos a iniciar el programa poara saber si una palabra intooducida es palindromica
             </summary>
             <param name="sender">Lanza el evento de boton Palindrmo</param>
             <param name="e"></param>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.bFactorial_Click(System.Object,System.EventArgs)">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.bFactorial_Click(System.Object,System.EventArgs)">
             <summary>
             Aqui iniciamos el programa para saber el factorial de un numero introducido
             </summary>
             <param name="sender">Lanza el evento de boton factorial</param>
             <param name="e">Sin uso</param>
         </member>
-        <member name="F:ProyecNavajaSuiza.Navaja_Suiza.components">
+        <member name="F:ProyecNavajaSuiza.NavajaSuiza.components">
             <summary>
             Variable del diseñador necesaria.
             </summary>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.Dispose(System.Boolean)">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.Dispose(System.Boolean)">
             <summary>
             Limpiar los recursos que se estén usando.
             </summary>
             <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         </member>
-        <member name="M:ProyecNavajaSuiza.Navaja_Suiza.InitializeComponent">
+        <member name="M:ProyecNavajaSuiza.NavajaSuiza.InitializeComponent">
             <summary>
             Método necesario para admitir el Diseñador. No se puede modificar
             el contenido de este método con el editor de código.
@@ -88,6 +88,7 @@
         <member name="M:ProyecNavajaSuiza.Sumanumeros.Sumanumeros.tNumero1_TextChanged(System.Object,System.EventArgs)">
             <summary>
             Vamos a limitar la cifra por la que vamos a sumar
+            <remarks>Con ello conseguimos un a limitacion en la enttrada de datos</remarks>
             </summary>
             <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
             <param name="e">nn</param>
@@ -95,6 +96,7 @@
         <member name="M:ProyecNavajaSuiza.Sumanumeros.Sumanumeros.tNumero2_TextChanged(System.Object,System.EventArgs)">
             <summary>
             Vamos a limitar la cifra por la que vamos a sumar
+            <remarks>Con ello conseguimos un a limitacion en la enttrada de datos</remarks>
             </summary>
             <param name="sender">Hemos limitado a 10 la cifra por la que sumamos</param>
             <param name="e">nn</param>
@@ -118,12 +120,14 @@
         </member>
         <member name="T:ProyecNavajaSuiza.Sumanumeros.SumanumerosLogica">
             <summary>
-            Clase estatica sumanumeros logica en la cual realizaremos la suma de dos numeros
+            Clase estatica sumanumeros logica 
+            <remarks>En la cual realizaremos la suma de dos numeros</remarks>
             </summary>
         </member>
         <member name="M:ProyecNavajaSuiza.Sumanumeros.SumanumerosLogica.lasuma(System.Int32,System.Int32,System.Int32@)">
             <summary>
             Realizamos la sum de los dos numeros introducidos
+            <remarks>Y es aqui donde se realiza la suma y nos devuelve el resultado</remarks>
             </summary>
             <param name="num1">Primer numero introducido</param>
             <param name="num2">Segundo numero introducido</param>
@@ -138,16 +142,25 @@
             media, maxima y minima
             </summary>
         </member>
+        <member name="M:ProyecNavajaSuiza.Temp.Temp.desactivaboton">
+            <summary>Desactivacion de botones
+            <remarks>Con este metodo conseguimos la 
+            inabiliacion de algunos boton sino se cumplen unas directrices
+            </remarks>
+            </summary>
+        </member>
         <member name="F:ProyecNavajaSuiza.Temp.Temp.Khoras">
-            <summary>
+            <summary>Khoras es el limite de pasos que podemos introducir
+            <remarks>
             Aqui creamos vector para la recogida de datos y posterior utilizacion
+            </remarks>
             </summary>
         </member>
         <member name="M:ProyecNavajaSuiza.Temp.Temp.FLeoVector(System.Int32[])">
             <summary>
-            
+            Lee mos las direrentes temperaturas y la metemos en el vector
             </summary>
-            <param name="vector"></param>
+            <param name="vector">Aqui vamos a almacenar todos los datos introduciod en modo temperatu/hora</param>
         </member>
         <member name="M:ProyecNavajaSuiza.Temp.Temp.#ctor">
             <summary>

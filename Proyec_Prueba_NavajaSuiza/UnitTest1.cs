@@ -139,7 +139,7 @@ namespace ProyecNavajaSuiza
             int num = 4;
 
             //accion
-            string resulfactorial = Factorial.FactorialLogica.facto(num);
+            string resulfactorial = Factorial.FactorialLogica.Facto(num);
 
             //afirmacion
 
@@ -159,7 +159,7 @@ namespace ProyecNavajaSuiza
             //escenario
             int num = 4;
             //accion
-            string resulfactorial = Factorial.FactorialLogica.facto(num);
+            string resulfactorial = Factorial.FactorialLogica.Facto(num);
             //afirmacion
             Assert.AreEqual("El factorial del numero introducido es: 50", resulfactorial);
 

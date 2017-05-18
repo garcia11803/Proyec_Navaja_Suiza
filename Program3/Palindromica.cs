@@ -63,11 +63,11 @@ namespace ProyecNavajaSuiza.Palindromica
             }
 
            
-            catch (Exception ex)
+           catch (Exception ex)
             {
 
-                MessageBox.Show("Se ha producido un error:" );
-            }
+             MessageBox.Show("Se ha producido un error:" );
+           }
 
 
             

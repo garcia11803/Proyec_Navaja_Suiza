@@ -1,6 +1,6 @@
 ﻿namespace ProyecNavajaSuiza
 {
-    partial class Navaja_Suiza
+    partial class NavajaSuiza
     {
         /// <summary>
         /// Variable del diseñador necesaria.

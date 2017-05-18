@@ -16,7 +16,7 @@ namespace ProyecNavajaSuiza
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Navaja_Suiza());
+            Application.Run(new NavajaSuiza());
         }
     }
 }

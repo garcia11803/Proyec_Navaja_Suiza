@@ -12,11 +12,11 @@ using System.Windows.Forms;
 /// </summary>
 namespace ProyecNavajaSuiza.Factorial
 {
-    public partial class Factorial : Form
+    public partial class Facto : Form
     {/// <summary>
     /// Instanciamos la clase para el proceso
     /// </summary>
-        public Factorial()
+        public Facto()
         {
             InitializeComponent();
         }
@@ -42,7 +42,7 @@ namespace ProyecNavajaSuiza.Factorial
             }
             else
             {
-                string numFac = FactorialLogica.facto(numero);
+                string numFac = FactorialLogica.Facto(numero);
 
                 MessageBox.Show(numFac);
             }

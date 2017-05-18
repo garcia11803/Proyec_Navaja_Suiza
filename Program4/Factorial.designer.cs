@@ -3,7 +3,7 @@
 /// Creamos la clase para la comprovacion de su uso del numero introducido, 
 /// calculam,os su factorial.
 /// </summary>
-    partial class Factorial
+    partial class Facto
     {
         /// <summary>
         /// Variable del diseñador necesaria.

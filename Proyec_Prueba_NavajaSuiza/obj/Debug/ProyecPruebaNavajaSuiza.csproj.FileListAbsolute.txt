@@ -8,3 +8,5 @@ C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Proyec_Prueba_NavajaSuiza\bin\Debug\
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Proyec_Prueba_NavajaSuiza\obj\Debug\ProyecPruebaNavajaSuiza.csprojResolveAssemblyReference.cache
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Proyec_Prueba_NavajaSuiza\obj\Debug\Proyec_Prueba_NavajaSuiza.dll
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Proyec_Prueba_NavajaSuiza\obj\Debug\Proyec_Prueba_NavajaSuiza.pdb
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Proyec_Prueba_NavajaSuiza\bin\Debug\Proyec_Prueba_NavajaSuiza.dll.CodeAnalysisLog.xml
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Proyec_Prueba_NavajaSuiza\bin\Debug\Proyec_Prueba_NavajaSuiza.dll.lastcodeanalysissucceeded

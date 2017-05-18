@@ -14,11 +14,11 @@ namespace ProyecNavajaSuiza
 {/// <summary>
 ///     Clase base,del proyecto
 /// </summary>
-    public partial class Navaja_Suiza : Form
+    public partial class NavajaSuiza : Form
     {/// <summary>
     ///     Instanciador de la clase principal, parte fundamental del programa
     /// </summary>
-        public Navaja_Suiza()
+        public NavajaSuiza()
         {
             InitializeComponent();
         }
@@ -74,7 +74,7 @@ namespace ProyecNavajaSuiza
         {
 
             
-            Factorial.Factorial ofacto = new Factorial.Factorial();
+            Factorial.Facto ofacto = new Factorial.Facto();
             ofacto.ShowDialog();
         }
 

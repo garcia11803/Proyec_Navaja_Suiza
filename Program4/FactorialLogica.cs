@@ -18,7 +18,7 @@ namespace ProyecNavajaSuiza.Factorial
     /// <returns>Devuelve el textro con el resultado calculado en la clase</returns>
     /// 
     ///
-        public static string facto( int numero)
+        public static string Facto( int numero)
         {
             string text="El factorial del numero introducido es: ";
 

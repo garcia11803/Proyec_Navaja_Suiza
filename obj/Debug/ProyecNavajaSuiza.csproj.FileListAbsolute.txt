@@ -2,7 +2,6 @@ C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe.co
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.XML
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.pdb
-C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.Navaja_Suiza.resources
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.Sumanumeros.Sumanumeros.resources
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.Temp.Temp.resources
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.Palindromica.Palindromica.resources
@@ -11,4 +10,6 @@ C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.Proper
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.csproj.GenerateResource.Cache
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.exe
 C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\Proyec_Navaja_Suiza.pdb
-C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.csprojResolveAssemblyReference.cache
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe.CodeAnalysisLog.xml
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe.lastcodeanalysissucceeded
+C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\obj\Debug\ProyecNavajaSuiza.NavajaSuiza.resources

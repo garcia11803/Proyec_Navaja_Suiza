@@ -1,107 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="14.0">
- <Namespaces>
-  <Namespace Name="Proyec_Navaja_Suiza">
-   <Messages>
-    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del espacio de nombres 'Proyec_Navaja_Suiza'.</Issue>
-    </Message>
-   </Messages>
-  </Namespace>
-  <Namespace Name="Proyec_Navaja_Suiza.Factorial">
-   <Messages>
-    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del espacio de nombres 'Proyec_Navaja_Suiza.Factorial'.</Issue>
-    </Message>
-   </Messages>
-  </Namespace>
-  <Namespace Name="Proyec_Navaja_Suiza.Palindromica">
-   <Messages>
-    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del espacio de nombres 'Proyec_Navaja_Suiza.Palindromica'.</Issue>
-    </Message>
-   </Messages>
-  </Namespace>
-  <Namespace Name="Proyec_Navaja_Suiza.Sumanumeros">
-   <Messages>
-    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del espacio de nombres 'Proyec_Navaja_Suiza.Sumanumeros'.</Issue>
-    </Message>
-   </Messages>
-  </Namespace>
-  <Namespace Name="Proyec_Navaja_Suiza.Temp">
-   <Messages>
-    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del espacio de nombres 'Proyec_Navaja_Suiza.Temp'.</Issue>
-    </Message>
-   </Messages>
-  </Namespace>
- </Namespaces>
  <Targets>
   <Target Name="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\bin\Debug\Proyec_Navaja_Suiza.exe">
    <Modules>
     <Module Name="proyec_navaja_suiza.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Firme 'Proyec_Navaja_Suiza.exe' con una clave de nombre seguro.</Issue>
       </Message>
-      <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
+      <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del ensamblado 'Proyec_Navaja_Suiza.exe'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Marque 'Proyec_Navaja_Suiza.exe' con CLSCompliant(true) porque expone tipos visibles externamente.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Warning">Puesto que el ensamblado 'Proyec_Navaja_Suiza.exe' contiene un archivo de recursos basado en ResX, márquelo con el atributo NeutralResourcesLanguage, especificando el lenguaje de los recursos del ensamblado. Esto puede mejorar el rendimiento de las búsquedas la primera vez que se recupera un recurso.</Issue>
       </Message>
      </Messages>
      <Namespaces>
-      <Namespace Name="Proyec_Navaja_Suiza">
+      <Namespace Name="ProyecNavajaSuiza">
        <Types>
-        <Type Name="Navaja_Suiza" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Messages>
-          <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="95" Level="Error">Quite los caracteres de subrayado del nombre del tipo 'Navaja_Suiza'.</Issue>
-          </Message>
-         </Messages>
+        <Type Name="NavajaSuiza" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Members>
           <Member Name="#bFactorial_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.cs" Line="75">En el método 'Navaja_Suiza.bFactorial_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'ofacto' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.cs" Line="77">En el método 'NavajaSuiza.bFactorial_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'ofacto' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#bPalindromo_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.cs" Line="62">En el método 'Navaja_Suiza.bPalindromo_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'opalin' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.cs" Line="64">En el método 'NavajaSuiza.bPalindromo_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'opalin' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#bSumanumeros_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.cs" Line="32">En el método 'Navaja_Suiza.bSumanumeros_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'osuma' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.cs" Line="34">En el método 'NavajaSuiza.bSumanumeros_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'osuma' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#bTemperatura_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.cs" Line="48">En el método 'Navaja_Suiza.bTemperatura_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'otemperatura' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.cs" Line="50">En el método 'NavajaSuiza.bTemperatura_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'otemperatura' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.Designer.cs" Line="81">El método 'Navaja_Suiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Factorial de un numero".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.Designer.cs" Line="96">El método 'Navaja_Suiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Navaja Suiza".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.Designer.cs" Line="69">El método 'Navaja_Suiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Palabra Palindromica".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.Designer.cs" Line="45">El método 'Navaja_Suiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Sumar numeros".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="Navaja_Suiza.Designer.cs" Line="57">El método 'Navaja_Suiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Temperatura ".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.Designer.cs" Line="81">El método 'NavajaSuiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Factorial de un numero".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.Designer.cs" Line="96">El método 'NavajaSuiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Navaja Suiza".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.Designer.cs" Line="69">El método 'NavajaSuiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Palabra Palindromica".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.Designer.cs" Line="45">El método 'NavajaSuiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Sumar numeros".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza" File="NavajaSuiza.Designer.cs" Line="57">El método 'NavajaSuiza.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Temperatura ".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -109,32 +67,32 @@
         </Type>
        </Types>
       </Namespace>
-      <Namespace Name="Proyec_Navaja_Suiza.Factorial">
+      <Namespace Name="ProyecNavajaSuiza.Factorial">
        <Types>
         <Type Name="Factorial" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-           <Issue Certainty="95" Level="Error">El nombre de tipo 'Factorial' está en conflicto total o parcialmente con el nombre del espacio de nombres 'Proyec_Navaja_Suiza.Factorial'. Cambie el nombre para eliminar el conflicto.</Issue>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">El nombre de tipo 'Factorial' está en conflicto total o parcialmente con el nombre del espacio de nombres 'ProyecNavajaSuiza.Factorial'. Cambie el nombre para eliminar el conflicto.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#bCalcula_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="Factorial.cs" Line="41">El método 'Factorial.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Dato erroeno, debes ingresar un numero".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="Factorial.cs" Line="41">El método 'Factorial.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Dato erroeno, caracter no numero o con signo negativo".</Issue>
             </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="Factorial.cs" Line="41">Cambie 'Factorial.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="Factorial.cs" Line="47">Cambie 'Factorial.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="Factorial.cs" Line="41">Cambie 'Factorial.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="Factorial.cs" Line="47">Cambie 'Factorial.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="Factorial.designer.cs" Line="47">El método 'Factorial.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Calcular Factorial".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="Factorial.designer.cs" Line="79">El método 'Factorial.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Factorial de un numero".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="Factorial.designer.cs" Line="67">El método 'Factorial.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Introduce el numero".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="Factorial.designer.cs" Line="47">El método 'Factorial.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Calcular Factorial".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="Factorial.designer.cs" Line="79">El método 'Factorial.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Factorial de un numero".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="Factorial.designer.cs" Line="67">El método 'Factorial.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Introduce el numero".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -144,8 +102,8 @@
          <Members>
           <Member Name="#facto(System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="facto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_4" File="FactorialLogica.cs" Line="20">Corrija el uso de mayúsculas y minúsculas en 'facto' en el nombre del miembro 'FactorialLogica.facto(int)' cambiándolo a 'Facto'.</Issue>
+            <Message Id="facto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program4" File="FactorialLogica.cs" Line="22">Corrija el uso de mayúsculas y minúsculas en 'facto' en el nombre del miembro 'FactorialLogica.facto(int)' cambiándolo a 'Facto'.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -153,20 +111,20 @@
         </Type>
        </Types>
       </Namespace>
-      <Namespace Name="Proyec_Navaja_Suiza.Palindromica">
+      <Namespace Name="ProyecNavajaSuiza.Palindromica">
        <Types>
         <Type Name="PalidromicaLogica" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Members>
           <Member Name="#palindromo(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="palindromo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="PalidromicaLogica.cs" Line="13">Corrija el uso de mayúsculas y minúsculas en 'palindromo' en el nombre del miembro 'PalidromicaLogica.palindromo(string)' cambiándolo a 'Palindromo'.</Issue>
+            <Message Id="palindromo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="PalidromicaLogica.cs" Line="21">Corrija el uso de mayúsculas y minúsculas en 'palindromo' en el nombre del miembro 'PalidromicaLogica.palindromo(string)' cambiándolo a 'Palindromo'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="PalidromicaLogica.cs" Line="13">El parámetro 'this' (o 'Me' en Visual Basic) de 'PalidromicaLogica.palindromo(string)' no se usa nunca. Marque el miembro como static (o Shared en Visual Basic) o use 'this'/'Me' en el cuerpo del método o al menos un descriptor de acceso de la propiedad, si procede.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="PalidromicaLogica.cs" Line="21">El parámetro 'this' (o 'Me' en Visual Basic) de 'PalidromicaLogica.palindromo(string)' no se usa nunca. Marque el miembro como static (o Shared en Visual Basic) o use 'this'/'Me' en el cuerpo del método o al menos un descriptor de acceso de la propiedad, si procede.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="PalidromicaLogica.cs" Line="16">En el método 'PalidromicaLogica.palindromo(string)' visible externamente, valide el parámetro 'frase' antes de usarlo.</Issue>
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="PalidromicaLogica.cs" Line="24">En el método 'PalidromicaLogica.palindromo(string)' visible externamente, valide el parámetro 'frase' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -174,35 +132,35 @@
         </Type>
         <Type Name="Palindromica" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-           <Issue Certainty="95" Level="Error">El nombre de tipo 'Palindromica' está en conflicto total o parcialmente con el nombre del espacio de nombres 'Proyec_Navaja_Suiza.Palindromica'. Cambie el nombre para eliminar el conflicto.</Issue>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">El nombre de tipo 'Palindromica' está en conflicto total o parcialmente con el nombre del espacio de nombres 'ProyecNavajaSuiza.Palindromica'. Cambie el nombre para eliminar el conflicto.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#bComprueva_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalError" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.cs" Line="66">Modifique 'Palindromica.bComprueva_Click(object, EventArgs)' para capturar una excepción más específica que 'Exception' o vuelva a producir la excepción.</Issue>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.cs" Line="66">Modifique 'Palindromica.bComprueva_Click(object, EventArgs)' para capturar una excepción más específica que 'Exception' o vuelva a producir la excepción.</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.cs" Line="62">El método 'Palindromica.bComprueva_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "La palabra introducida NO es palindromica, La palabra introducida es palindromic...".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.cs" Line="69">El método 'Palindromica.bComprueva_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Se ha producido un error:".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.cs" Line="62">El método 'Palindromica.bComprueva_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "La palabra introducida NO es palindromica, La palabra introducida es palindromic...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.cs" Line="69">El método 'Palindromica.bComprueva_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Se ha producido un error:".</Issue>
             </Message>
-            <Message Id="ex" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.cs" Line="66">'Palindromica.bComprueva_Click(object, EventArgs)' declara una variable, 'ex', de tipo 'Exception', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
+            <Message Id="ex" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.cs" Line="66">'Palindromica.bComprueva_Click(object, EventArgs)' declara una variable, 'ex', de tipo 'Exception', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
             </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.cs" Line="62">Cambie 'Palindromica.bComprueva_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.cs" Line="69">Cambie 'Palindromica.bComprueva_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.cs" Line="62">Cambie 'Palindromica.bComprueva_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.cs" Line="69">Cambie 'Palindromica.bComprueva_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.designer.cs" Line="46">El método 'Palindromica.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Comprovar".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.designer.cs" Line="66">El método 'Palindromica.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Comprueva la palabra: ".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_3" File="Palindromica.designer.cs" Line="78">El método 'Palindromica.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Es palindromica esta palabra?".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.designer.cs" Line="46">El método 'Palindromica.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Comprovar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.designer.cs" Line="66">El método 'Palindromica.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Comprueva la palabra: ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program3" File="Palindromica.designer.cs" Line="78">El método 'Palindromica.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Es palindromica esta palabra?".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -210,56 +168,56 @@
         </Type>
        </Types>
       </Namespace>
-      <Namespace Name="Proyec_Navaja_Suiza.Properties">
+      <Namespace Name="ProyecNavajaSuiza.Properties">
        <Types>
         <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
            </Messages>
           </Member>
          </Members>
         </Type>
        </Types>
       </Namespace>
-      <Namespace Name="Proyec_Navaja_Suiza.Sumanumeros">
+      <Namespace Name="ProyecNavajaSuiza.Sumanumeros">
        <Types>
         <Type Name="Sumanumeros" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-           <Issue Certainty="95" Level="Error">El nombre de tipo 'Sumanumeros' está en conflicto total o parcialmente con el nombre del espacio de nombres 'Proyec_Navaja_Suiza.Sumanumeros'. Cambie el nombre para eliminar el conflicto.</Issue>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">El nombre de tipo 'Sumanumeros' está en conflicto total o parcialmente con el nombre del espacio de nombres 'ProyecNavajaSuiza.Sumanumeros'. Cambie el nombre para eliminar el conflicto.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#bCalcula_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="48">El método 'Sumanumeros.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Agun caracter no permitido, revise y vuelva a intentarlo".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="44">El método 'Sumanumeros.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "El resultado de la suma de ,  y ,  es: ".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="49">El método 'Sumanumeros.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Agun caracter no permitido, revise y vuelva a intentarlo".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="45">El método 'Sumanumeros.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "El resultado de la suma de ,  y ,  es: ".</Issue>
             </Message>
-            <Message Id="oknumero1" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="39">'Sumanumeros.bCalcula_Click(object, EventArgs)' declara una variable, 'oknumero1', de tipo 'bool', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
+            <Message Id="oknumero1" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="40">'Sumanumeros.bCalcula_Click(object, EventArgs)' declara una variable, 'oknumero1', de tipo 'bool', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
             </Message>
-            <Message Id="oknumero2" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="40">'Sumanumeros.bCalcula_Click(object, EventArgs)' declara una variable, 'oknumero2', de tipo 'bool', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
+            <Message Id="oknumero2" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="41">'Sumanumeros.bCalcula_Click(object, EventArgs)' declara una variable, 'oknumero2', de tipo 'bool', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
             </Message>
-            <Message Id="suma" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="37">'Sumanumeros.bCalcula_Click(object, EventArgs)' declara una variable, 'suma', de tipo 'int', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
+            <Message Id="suma" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="38">'Sumanumeros.bCalcula_Click(object, EventArgs)' declara una variable, 'suma', de tipo 'int', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
             </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="44">Cambie 'Sumanumeros.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.cs" Line="48">Cambie 'Sumanumeros.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="45">Cambie 'Sumanumeros.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.cs" Line="49">Cambie 'Sumanumeros.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.designer.cs" Line="48">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Calcula".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.designer.cs" Line="76">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Numero 1".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.designer.cs" Line="86">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Numero 2".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="Sumanumeros.designer.cs" Line="100">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Suma dos numeros".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.designer.cs" Line="48">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Calcula".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.designer.cs" Line="76">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Numero 1".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.designer.cs" Line="86">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Numero 2".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="Sumanumeros.designer.cs" Line="100">El método 'Sumanumeros.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Suma dos numeros".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -269,11 +227,11 @@
          <Members>
           <Member Name="#lasuma(System.Int32,System.Int32,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="2#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="SumanumerosLogica.cs" Line="21">Considere el uso de un diseño que no requiera que 'resul' sea un parámetro out.</Issue>
+            <Message Id="2#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="SumanumerosLogica.cs" Line="25">Considere el uso de un diseño que no requiera que 'resul' sea un parámetro out.</Issue>
             </Message>
-            <Message Id="lasuma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_1" File="SumanumerosLogica.cs" Line="21">Corrija el uso de mayúsculas y minúsculas en 'lasuma' en el nombre del miembro 'SumanumerosLogica.lasuma(int, int, out int)' cambiándolo a 'Lasuma'.</Issue>
+            <Message Id="lasuma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program1" File="SumanumerosLogica.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'lasuma' en el nombre del miembro 'SumanumerosLogica.lasuma(int, int, out int)' cambiándolo a 'Lasuma'.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -281,50 +239,50 @@
         </Type>
        </Types>
       </Namespace>
-      <Namespace Name="Proyec_Navaja_Suiza.Temp">
+      <Namespace Name="ProyecNavajaSuiza.Temp">
        <Types>
         <Type Name="Temp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-           <Issue Certainty="95" Level="Error">El nombre de tipo 'Temp' está en conflicto total o parcialmente con el nombre del espacio de nombres 'Proyec_Navaja_Suiza.Temp'. Cambie el nombre para eliminar el conflicto.</Issue>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">El nombre de tipo 'Temp' está en conflicto total o parcialmente con el nombre del espacio de nombres 'ProyecNavajaSuiza.Temp'. Cambie el nombre para eliminar el conflicto.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#bCalcula_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="83">El método 'Temp.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "La temperatura maxima es  , , la temperatura minima es , , la temperatura media ...".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="119">El método 'Temp.bCalcula_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "La temperatura maxima es  , , la temperatura minima es , , la temperatura media ...".</Issue>
             </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="83">Cambie 'Temp.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="119">Cambie 'Temp.bCalcula_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#FLeoVector(System.Int32[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="51">El método 'Temp.FLeoVector(int[])' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Completado los temperaturas del dia".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="56">El método 'Temp.FLeoVector(int[])' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "¡Error! El valor introducido por el usuario no es un número entero".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="85">El método 'Temp.FLeoVector(int[])' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Completado los temperaturas del dia".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="90">El método 'Temp.FLeoVector(int[])' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "¡Error! El valor introducido por el usuario no es un número entero".</Issue>
             </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="51">Cambie 'Temp.FLeoVector(int[])' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
-             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="56">Cambie 'Temp.FLeoVector(int[])' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="85">Cambie 'Temp.FLeoVector(int[])' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+             <Issue Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="90">Cambie 'Temp.FLeoVector(int[])' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="43">En el método 'Temp.FLeoVector(int[])' visible externamente, valide el parámetro 'vector' antes de usarlo.</Issue>
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="77">En el método 'Temp.FLeoVector(int[])' visible externamente, valide el parámetro 'vector' antes de usarlo.</Issue>
             </Message>
-            <Message Id="vector" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="NonBreaking">
-             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.cs" Line="35">'vector', un parámetro declarado en 'Temp.FLeoVector(int[])', tiene el mismo nombre que el campo de instancia en el tipo. Cambie el nombre de uno de estos elementos.</Issue>
+            <Message Id="vector" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.cs" Line="69">'vector', un parámetro declarado en 'Temp.FLeoVector(int[])', tiene el mismo nombre que el campo de instancia en el tipo. Cambie el nombre de uno de estos elementos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.designer.cs" Line="68">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Introduce la temperatura".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.designer.cs" Line="78">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Introducir temperaturas".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.designer.cs" Line="48">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Saca la temperatura media,max y min".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="Temp.designer.cs" Line="93">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Temperatura".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.designer.cs" Line="69">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Introduce la temperatura".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.designer.cs" Line="80">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Introducir temperaturas".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.designer.cs" Line="49">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Saca la temperatura media,max y min".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="Temp.designer.cs" Line="95">El método 'Temp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Temperatura".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -334,23 +292,23 @@
          <Members>
           <Member Name="#temperatura(System.Int32[],System.Int32&amp;,System.Int32&amp;,System.Int32&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="TempLogica.cs" Line="25">Considere el uso de un diseño que no requiera que 'maxi' sea un parámetro out.</Issue>
+            <Message Id="1#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="TempLogica.cs" Line="32">Considere el uso de un diseño que no requiera que 'maxi' sea un parámetro out.</Issue>
             </Message>
-            <Message Id="2#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="TempLogica.cs" Line="25">Considere el uso de un diseño que no requiera que 'mini' sea un parámetro out.</Issue>
+            <Message Id="2#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="TempLogica.cs" Line="32">Considere el uso de un diseño que no requiera que 'mini' sea un parámetro out.</Issue>
             </Message>
-            <Message Id="3#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="TempLogica.cs" Line="25">Considere el uso de un diseño que no requiera que 'media' sea un parámetro out.</Issue>
+            <Message Id="3#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="TempLogica.cs" Line="32">Considere el uso de un diseño que no requiera que 'media' sea un parámetro out.</Issue>
             </Message>
-            <Message Id="temperatura" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="TempLogica.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'temperatura' en el nombre del miembro 'TempLogica.temperatura(int[], out int, out int, out int)' cambiándolo a 'Temperatura'.</Issue>
+            <Message Id="temperatura" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="TempLogica.cs" Line="32">Corrija el uso de mayúsculas y minúsculas en 'temperatura' en el nombre del miembro 'TempLogica.temperatura(int[], out int, out int, out int)' cambiándolo a 'Temperatura'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="TempLogica.cs" Line="25">El parámetro 'this' (o 'Me' en Visual Basic) de 'TempLogica.temperatura(int[], out int, out int, out int)' no se usa nunca. Marque el miembro como static (o Shared en Visual Basic) o use 'this'/'Me' en el cuerpo del método o al menos un descriptor de acceso de la propiedad, si procede.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="TempLogica.cs" Line="32">El parámetro 'this' (o 'Me' en Visual Basic) de 'TempLogica.temperatura(int[], out int, out int, out int)' no se usa nunca. Marque el miembro como static (o Shared en Visual Basic) o use 'this'/'Me' en el cuerpo del método o al menos un descriptor de acceso de la propiedad, si procede.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-05-15 12:17:51Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program_2" File="TempLogica.cs" Line="26">En el método 'TempLogica.temperatura(int[], out int, out int, out int)' visible externamente, valide el parámetro 'vector' antes de usarlo.</Issue>
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-05-18 12:04:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\eugafe\Desktop\Proyec_Navaja_Suiza\Program2" File="TempLogica.cs" Line="33">En el método 'TempLogica.temperatura(int[], out int, out int, out int)' visible externamente, valide el parámetro 'vector' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -427,8 +385,6 @@
    <Name>Los identificadores no deberían contener subrayado</Name>
    <Description>No utilice subrayado al especificar identificadores. Algunos identificadores de Visual Studio generados para aplicaciones contienen caracteres de subrayado. En general, se deberían evitar los caracteres de subrayado en identificadores públicos.</Description>
    <Resolution Name="Assembly">Quite los caracteres de subrayado del nombre del ensamblado {0}.</Resolution>
-   <Resolution Name="Namespace">Quite los caracteres de subrayado del nombre del espacio de nombres '{0}'.</Resolution>
-   <Resolution Name="Type">Quite los caracteres de subrayado del nombre del tipo {0}.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182245.aspx</Url>
    <Email>[none]</Email>
