@@ -169,12 +169,15 @@ namespace ProyecNavajaSuiza
 
 
         /// <summary>
-        /// 
+        /// Test de Temperatura, tengo limitado la entrada de datos a numeros
+        /// de dos cifras, sino el programa saca un aviso para que no se pueda meter otro dato.
         /// </summary>
         [TestMethod]
         public void TestTemperatur1()
         {
             //escenario
+            int max, min, media;
+
 
             //accion
 
